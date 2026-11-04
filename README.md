@@ -23,11 +23,12 @@ https://gh-proxy.com/https://raw.githubusercontent.com/hubeizgd1979/tvbox-merge/
 https://raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_all.json
 ```
 
-当前实测规模：**1013 影视源 + 40 直播组**（三套聚合去重 939 + 公共接口 74）。
+当前实测规模：**740 影视源 + 26 直播**（构建时自动剔除失效源，规模随核查浮动）。
 
-## 核查报告
+## 核查报告与自动剔除
 
 每次运行生成 `status.json`：总源数 / 有效数 / 无效清单（HTTP 状态或超时原因），并在 Actions 页面的 Run 里展示。
 
+- **自动剔除**：确定性无效（HTTP 4xx/5xx、DNS 解析失败、连接被拒）的源**立即从综合源剔除**；超时/SSL 等不稳定错误**连续两轮**核查无效才剔除。每轮从三套源全量重建，被误剔的源恢复有效后会自动重新加入，不会永久丢失。
 - 自动运行：每 4 小时（北京 08:00 / 12:00 / 16:00 / 20:00 / 00:00 / 04:00）
 - 手动运行：Actions → Merge all → Run workflow
