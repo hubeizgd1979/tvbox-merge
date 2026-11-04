@@ -1,0 +1,28 @@
+{
+  "name": "影视仓TVBox二开版(官方下载信息)",
+  "official_site": "https://ysctvbox.github.io/",
+  "fetched_at": "2026-11-04 03:12:44 UTC",
+  "version": {
+    "mobile": "v3.1.7",
+    "tv": "v6.1.0"
+  },
+  "download": {
+    "tv": "https://tvbox666.pages.dev/",
+    "mobile": "https://tvbox666.pages.dev/",
+    "gate": "https://tvbox666.pages.dev/",
+    "pan_quark": "https://pan.quark.cn/s/8b9637374394"
+  },
+  "raw_title": "影视仓TVBox二开版 - 官方下载页",
+  "notes": "认准影视仓TVBox二开版(YSCTVbox)，勿与贵阳惠跃同名商业App混淆；TV版适配盒子大屏",
+  "title_h1": "影视仓TVBox二开版 v3.1.7/v6.1.0",
+  "download_entry": {
+    "tv": "https://tvbox666.pages.dev/",
+    "mobile": "https://tvbox666.pages.dev/"
+  },
+  "versions_seen": [
+    "v6.1.0",
+    "v3.1.7",
+    "5.3.0",
+    "1.0"
+  ]
+}
