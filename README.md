@@ -33,3 +33,14 @@ https://raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_all.json
 - **更新通知邮件**：每次构建成功后，自动发送邮件到 `381374449@qq.com`，内容包括最新订阅地址、订阅地址包含的接口清单（当前有效的公共接口）与本次核查统计。
 - 自动运行：每 4 小时（北京 08:00 / 12:00 / 16:00 / 20:00 / 00:00 / 04:00）
 - 手动运行：Actions → Merge all → Run workflow
+
+## 影视仓（TVBox 二开版）下载
+
+| 项目 | 信息 |
+|---|---|
+| 官网 | https://ysctvbox.github.io/ |
+| 最新版本 | TV 版 v6.1.0 / 手机版 v3.1.7 |
+| 下载入口 | 官网点「TV版下载」（盒子/大屏）或「手机版下载」，自动跳转网盘 |
+| 网盘直链 | https://pan.quark.cn/s/8b9637374394 |
+
+> 本信息由构建自动抓取维护（`ysc_download.json`），官网更新后自动同步。认准「影视仓TVBox二开版」，勿与贵阳惠跃同名商业 App 混淆。
