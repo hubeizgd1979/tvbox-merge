@@ -3,15 +3,8 @@
  "wallpaper": "https://picsum.photos/1280/720",
  "sites": [
   {
-   "key": "tv_pref-007_csp_Czsapp",
-   "name": "🏭厂长·小盒子",
-   "type": 3,
-   "api": "csp_Czsapp",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "https://www.czzy55.com/",
-   "jar": "http://xhztv.top/xhz/Yoursmile.jar"
+   "name": "公共·影视仓",
+   "url": "http://影视仓.com/"
   },
   {
    "key": "Douban",
@@ -989,6 +982,17 @@
    "jar": "http://oss4liview.moji.com/thd_file/2026/11/04/690e7f13e63718e6ea88add0c59d4289.jpg;md5;86cb2cdcd99e29334004b80e48007e9a",
    "quickSearch": 1,
    "filterable": 1
+  },
+  {
+   "key": "tv_pref-007_csp_Czsapp",
+   "name": "🏭厂长·小盒子",
+   "type": 3,
+   "api": "csp_Czsapp",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://www.czzy55.com/",
+   "jar": "http://xhztv.top/xhz/Yoursmile.jar"
   },
   {
    "key": "tv_pref-007_csp_YQKan",
@@ -7787,10 +7791,6 @@
    "url": "http://www.饭太硬.net/tv"
   },
   {
-   "name": "公共·饭太硬.art",
-   "url": "http://www.饭太硬.art/tv"
-  },
-  {
    "name": "公共·饭太硬.888484",
    "url": "http://fty.888484.xyz/tv"
   },
@@ -7805,6 +7805,10 @@
   {
    "name": "公共·肥猫.net",
    "url": "http://肥猫.net/"
+  },
+  {
+   "name": "公共·肥猫.hello",
+   "url": "http://hello.肥猫.net"
   },
   {
    "name": "公共·肥猫.com",
@@ -7873,10 +7877,6 @@
   {
    "name": "公共·苍蓝.punycode",
    "url": "http://xn--6orr3pi6g9uu.top"
-  },
-  {
-   "name": "公共·影视仓",
-   "url": "http://影视仓.com/"
   },
   {
    "name": "公共·UUCCC",
