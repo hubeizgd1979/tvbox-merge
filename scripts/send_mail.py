@@ -46,6 +46,25 @@ def load_public_interfaces():
     return out
 
 
+def load_ysc_info():
+    """从 ysc_download.json 读取影视仓官网/版本/下载信息（构建时自动抓取）。"""
+    try:
+        with open("ysc_download.json", encoding="utf-8") as f:
+            d = json.load(f)
+        v = d.get("version", {}) or {}
+        dl = d.get("download", {}) or {}
+        return {
+            "site": d.get("official_site", ""),
+            "tv": v.get("tv", ""),
+            "mobile": v.get("mobile", ""),
+            "gate": dl.get("gate", ""),
+            "pan": dl.get("pan_quark", ""),
+            "notes": d.get("notes", ""),
+        }
+    except Exception:
+        return None
+
+
 def main():
     if not (USER and PASS and TO):
         print("SMTP 配置缺失，跳过发信")
@@ -85,6 +104,27 @@ def main():
         lines.append("  %d. %s %s" % (i, nm, u))
     if not load_public_interfaces():
         lines.append("  （暂无公共接口条目）")
+
+    ysc = load_ysc_info()
+    if ysc and ysc.get("site"):
+        lines += [
+            "",
+            "【3. 影视仓（TVBox 二开版）下载】",
+            "  官网: %s" % ysc.get("site", ""),
+            "  最新版本: TV版 %s / 手机版 %s" % (ysc.get("tv", "?"), ysc.get("mobile", "?")),
+            "  下载入口: 官网点「TV版下载」（盒子/大屏）或「手机版下载」，自动跳转网盘",
+            "  网盘直链: %s" % ysc.get("pan", ""),
+        ]
+        if ysc.get("gate"):
+            lines.append("  中转页: %s" % ysc.get("gate", ""))
+        if ysc.get("notes"):
+            lines.append("  备注: %s" % ysc.get("notes", ""))
+    else:
+        lines += [
+            "",
+            "【3. 影视仓（TVBox 二开版）下载】",
+            "  （本次构建未抓到官网信息，请直接访问 https://ysctvbox.github.io/ ）",
+        ]
 
     lines += [
         "",
