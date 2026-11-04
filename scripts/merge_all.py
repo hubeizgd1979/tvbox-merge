@@ -358,16 +358,26 @@ def main():
     merged["lives"] = kept_lives
     merged["parses"] = kept_parses
 
-    # 首页保障：影视仓/TVboxOSC 主界面「主页」显示第一个源的首页推荐；
-    # 若第一位是 jpg 伪装 jar 或纯接口（无 jar）源，主页会空白。
-    # 这里把第一个「真实 .jar 爬虫源」提到第一位，保证填入订阅后主界面即有推荐。
+    # 首页保障：影视仓/TVboxOSC 主界面「主页」显示第一个源的首页推荐。
+    # ① 优先把「公共·影视仓」（影视仓官方接口）放第一位（用户指定首页源）；
+    # ② 若官方源被自动剔除，回退到第一个「真实 .jar 爬虫源」置顶，保证主页有推荐。
+    home_first = None
     for i, s in enumerate(merged["sites"]):
-        j = (s.get("jar") or "") or ""
-        jurl = j.split(";")[0].strip()
-        if jurl.lower().endswith(".jar"):
-            first = merged["sites"].pop(i)
-            merged["sites"].insert(0, first)
+        if str(s.get("name", "")).startswith("公共·影视仓"):
+            home_first = (i, s)
             break
+    if home_first:
+        i, s = home_first
+        merged["sites"].pop(i)
+        merged["sites"].insert(0, s)
+    else:
+        for i, s in enumerate(merged["sites"]):
+            j = (s.get("jar") or "") or ""
+            jurl = j.split(";")[0].strip()
+            if jurl.lower().endswith(".jar"):
+                first = merged["sites"].pop(i)
+                merged["sites"].insert(0, first)
+                break
 
     with open("config_all.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(merged, f, ensure_ascii=False, indent=1)
