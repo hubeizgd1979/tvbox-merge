@@ -1,0 +1,53 @@
+name: 合并综合源并核查
+
+on:
+  schedule:
+    # 每 4 小时重建并核查（cron 为 UTC，即北京 08/12/16/20/00/04）
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge-all
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 合并综合源并核查地址
+        run: python scripts/merge_all.py
+
+      - name: 提交产物
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add config_all.json status.json
+
+          if git diff --staged --quiet; then
+            echo "内容无变化，跳过提交"
+            exit 0
+          fi
+
+          git commit -m "chore: 综合源更新 $(date '+%Y-%m-%d %H:%M:%S')"
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git push origin "HEAD:refs/heads/$BRANCH"
+
+      - name: 输出核查报告
+        run: |
+          echo "### 本次核查结果" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat status.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
