@@ -47,7 +47,6 @@ jobs:
           fi
 
       - name: 发送订阅通知邮件
-        if: steps.commit.outputs.has_change == 'true'
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
