@@ -29,6 +29,7 @@ jobs:
         run: python scripts/merge_all.py
 
       - name: 提交产物
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,16 +38,16 @@ jobs:
 
           if git diff --staged --quiet; then
             echo "内容无变化，跳过提交"
-            echo "HAS_CHANGE=false" >> "$GITHUB_ENV"
+            echo "has_change=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: 综合源更新 $(date '+%Y-%m-%d %H:%M:%S')"
             BRANCH="${GITHUB_REF_NAME:-main}"
             git push origin "HEAD:refs/heads/$BRANCH"
-            echo "HAS_CHANGE=true" >> "$GITHUB_ENV"
+            echo "has_change=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 发送订阅通知邮件
-        if: env.HAS_CHANGE == 'true'
+        if: steps.commit.outputs.has_change == 'true'
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
