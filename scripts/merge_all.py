@@ -223,7 +223,9 @@ def main():
                     continue
                 k = key_fn(item)
                 if k and k not in seen:
-                    seen[k] = item
+                    tagged = dict(item)
+                    tagged["_src"] = src_name
+                    seen[k] = tagged
         return list(seen.values())
 
     merged["sites"] = merge_list("sites", name_key)
@@ -239,10 +241,21 @@ def main():
             continue
         if norm(u) in existing_urls:
             continue
-        merged["sites"].append({"name": "公共·" + nm, "url": u.strip()})
+        merged["sites"].append({"_src": "external", "name": "公共·" + nm, "url": u.strip()})
         existing_urls.add(norm(u))
         added += 1
     stats["external(大佬公共接口)"] = {"added": added}
+
+    # 读取上次核查结果（repo 里已提交的 status.json），用于对"不稳定类"错误做二次确认
+    last_invalid_urls = {}
+    try:
+        with open("status.json", "r", encoding="utf-8") as f:
+            last = json.load(f)
+        for it in last.get("invalid", []):
+            if isinstance(it, dict) and it.get("url"):
+                last_invalid_urls[it["url"]] = it.get("reason", "")
+    except Exception:
+        pass
 
     # 收集候选核查 URL
     cands = []
@@ -268,9 +281,22 @@ def main():
             except Exception as e:
                 results[u] = (False, str(e)[:60])
 
+    def is_hard_invalid(reason):
+        """确定性无效：明确的 HTTP 错误 / DNS 解析失败 / 连接被拒 / URL 非法。"""
+        if reason.startswith("http:"):
+            try:
+                code = int(reason.split(":")[1])
+                return code not in (429,)  # 429 限流视作不稳定，走二次确认
+            except Exception:
+                return False
+        return reason.startswith(("getaddrinfo failed", "url-err", "WinError 10061", "WinError 10054",
+                                  "Connection refused", "远程主机强迫关闭", "目标计算机积极拒绝"))
+
     invalid = []
+    removed = []
     valid_cnt = 0
     skipped = 0
+    removed_set = set()
     for u, (ok, reason) in results.items():
         typ, nm = uniq[u]
         if ok:
@@ -278,8 +304,59 @@ def main():
                 skipped += 1
             else:
                 valid_cnt += 1
-        else:
-            invalid.append({"type": typ, "name": nm, "url": u, "reason": reason})
+            continue
+        entry = {"type": typ, "name": nm, "url": u, "reason": reason}
+        invalid.append(entry)
+        if is_hard_invalid(reason) or u in last_invalid_urls:
+            # 确定性无效：立即剔除；不稳定类（超时/SSL 等）：连续两轮无效才剔除
+            removed_set.add(u)
+            removed.append(entry)
+
+    def entry_urls(item, base_url):
+        """条目全部可核查 URL：api/ext/jar 中的 http 地址 + url 字段（$$$ 多参数取首段）。"""
+        urls = []
+        if not isinstance(item, dict):
+            return urls
+        for fld in ("api", "ext", "jar"):
+            v = item.get(fld)
+            if isinstance(v, str):
+                u = resolve(base_url, v)
+                if u:
+                    urls.append(check_norm(u))
+        u = (item.get("url") or "").strip()
+        if u:
+            urls.append(check_norm(u))
+        return urls
+
+    def check_norm(u):
+        return u.split("$$$")[0].strip()
+
+    # 剔除：条目任一可核查 URL 命中 removed_set 即剔除（按 _src 用对应源基址解析）
+    kept_sites, kept_lives, kept_parses = [], [], []
+    for s in merged["sites"]:
+        if not isinstance(s, dict):
+            continue
+        base_url = SOURCES.get(s.get("_src", ""), "")
+        if not any(u in removed_set for u in entry_urls(s, base_url)):
+            s.pop("_src", None)
+            kept_sites.append(s)
+    for lv in merged["lives"]:
+        if not isinstance(lv, dict):
+            continue
+        base_url = SOURCES.get(lv.get("_src", ""), "")
+        if not any(u in removed_set for u in entry_urls(lv, base_url)):
+            lv.pop("_src", None)
+            kept_lives.append(lv)
+    for p in merged["parses"]:
+        if not isinstance(p, dict):
+            continue
+        base_url = SOURCES.get(p.get("_src", ""), "")
+        if not any(u in removed_set for u in entry_urls(p, base_url)):
+            p.pop("_src", None)
+            kept_parses.append(p)
+    merged["sites"] = kept_sites
+    merged["lives"] = kept_lives
+    merged["parses"] = kept_parses
 
     with open("config_all.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(merged, f, ensure_ascii=False, indent=1)
@@ -293,7 +370,9 @@ def main():
         "valid_urls": valid_cnt,
         "skipped_urls": skipped,
         "invalid_count": len(invalid),
-        "invalid": invalid[:200],
+        "removed_count": len(removed),
+        "invalid": invalid,
+        "removed": removed,
     }
     with open("status.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)
