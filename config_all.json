@@ -3,6 +3,17 @@
  "wallpaper": "https://picsum.photos/1280/720",
  "sites": [
   {
+   "key": "tv_pref-007_csp_Czsapp",
+   "name": "🏭厂长·小盒子",
+   "type": 3,
+   "api": "csp_Czsapp",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://www.czzy55.com/",
+   "jar": "http://xhztv.top/xhz/Yoursmile.jar"
+  },
+  {
    "key": "Douban",
    "name": "🐮【免费分享】🐮",
    "type": 3,
@@ -978,17 +989,6 @@
    "jar": "http://oss4liview.moji.com/thd_file/2026/11/04/690e7f13e63718e6ea88add0c59d4289.jpg;md5;86cb2cdcd99e29334004b80e48007e9a",
    "quickSearch": 1,
    "filterable": 1
-  },
-  {
-   "key": "tv_pref-007_csp_Czsapp",
-   "name": "🏭厂长·小盒子",
-   "type": 3,
-   "api": "csp_Czsapp",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "https://www.czzy55.com/",
-   "jar": "http://xhztv.top/xhz/Yoursmile.jar"
   },
   {
    "key": "tv_pref-007_csp_YQKan",
@@ -7819,6 +7819,14 @@
    "url": "https://9280.kstore.vip/newwex.json"
   },
   {
+   "name": "公共·王二小.top",
+   "url": "http://tvbox.王二小放牛娃.top"
+  },
+  {
+   "name": "公共·王二小.999888987",
+   "url": "http://tv.999888987.xyz/"
+  },
+  {
    "name": "公共·王二小.999888123",
    "url": "http://tv.999888123.xyz/"
   },
@@ -7829,6 +7837,10 @@
   {
    "name": "公共·王二小.iyouhun",
    "url": "https://www.iyouhun.com/tv/wex"
+  },
+  {
+   "name": "公共·王二小.punycode",
+   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top"
   },
   {
    "name": "公共·欧歌免费",
