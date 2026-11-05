@@ -1335,8 +1335,7 @@
     "港台综艺",
     "日韩综艺",
     "欧美综艺"
-   ],
-   "changeable": 1
+   ]
   },
   {
    "key": "tv_back-023_csp_非凡资源",
@@ -1672,61 +1671,6 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt"
    },
    "jar": "https://qist.wyfc.qzz.io/jar/fan.txt",
-   "filterable": 1
-  },
-  {
-   "key": "tv_back-024_暴風",
-   "name": "🦔暴風┃采集·荐片",
-   "type": 1,
-   "api": "https://bfzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "tv_back-024_360",
-   "name": "🦚360┃采集·荐片",
-   "type": 1,
-   "api": "https://360zy.com/api.php/provide/vod?",
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "古装片",
-    "悬疑片",
-    "犯罪片",
-    "灾难片",
-    "国产剧",
-    "香港剧",
-    "韩国剧",
-    "欧美剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺",
-    "国产动漫",
-    "欧美动漫",
-    "日韩动漫",
-    "现代都市",
-    "脑洞悬疑",
-    "年代穿越",
-    "古装仙侠",
-    "女频恋爱",
-    "成长逆袭",
-    "反转爽剧"
-   ],
-   "quickSearch": 1,
    "filterable": 1
   },
   {
@@ -8318,25 +8262,12 @@
    "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
   },
   {
-   "name": "24live",
-   "type": 0,
-   "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
-   "playerType": 2,
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
-  },
-  {
-   "name": "16万•MV",
-   "type": 0,
-   "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
-  },
-  {
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-04 23:06:40",
+     "name": "2026-11-05 04:04:11",
      "urls": [
-      "http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009"
+      "http://173.208.234.146/live/cctv8.m3u8"
      ]
     }
    ]
