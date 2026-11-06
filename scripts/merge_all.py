@@ -360,26 +360,36 @@ def main():
     merged["lives"] = kept_lives
     merged["parses"] = kept_parses
 
-    # 首页保障：影视仓/TVboxOSC 主界面「主页」显示第一个源的首页推荐。
-    # ① 优先把「公共·影视仓」（影视仓官方接口）放第一位（用户指定首页源，精确匹配，排除 TOP 备用条目）；
-    # ② 若官方源被自动剔除，回退到第一个「真实 .jar 爬虫源」置顶，保证主页有推荐。
-    home_first = None
-    for i, s in enumerate(merged["sites"]):
-        if str(s.get("name", "")) == "公共·影视仓":
-            home_first = (i, s)
-            break
-    if home_first:
-        i, s = home_first
-        merged["sites"].pop(i)
-        merged["sites"].insert(0, s)
-    else:
+    # 首页顺序保障：用户指定首页依次为「索尼 → 量子」。
+    # 依次把这两个源置顶（优先取名称含「┃关键词┃」的完整条目，其次任意包含关键词者）；
+    # 若都找不到，回退：① 公共·影视仓 ② 第一个真实 .jar 爬虫源，保证主页不空白。
+    ordered = []
+    for kw in ("索尼", "量子"):
+        idx = None
         for i, s in enumerate(merged["sites"]):
-            j = (s.get("jar") or "") or ""
-            jurl = j.split(";")[0].strip()
-            if jurl.lower().endswith(".jar"):
-                first = merged["sites"].pop(i)
-                merged["sites"].insert(0, first)
+            if "┃" + kw + "┃" in str(s.get("name", "")):
+                idx = i
                 break
+        if idx is None:
+            for i, s in enumerate(merged["sites"]):
+                if kw in str(s.get("name", "")):
+                    idx = i
+                    break
+        if idx is not None:
+            ordered.append(merged["sites"].pop(idx))
+    for k, s in enumerate(ordered):
+        merged["sites"].insert(k, s)
+    if not ordered:
+        for i, s in enumerate(merged["sites"]):
+            if str(s.get("name", "")) == "公共·影视仓":
+                merged["sites"].insert(0, merged["sites"].pop(i))
+                break
+        else:
+            for i, s in enumerate(merged["sites"]):
+                j = (s.get("jar") or "") or ""
+                if j.split(";")[0].strip().lower().endswith(".jar"):
+                    merged["sites"].insert(0, merged["sites"].pop(i))
+                    break
 
     with open("config_all.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(merged, f, ensure_ascii=False, indent=1)
