@@ -67,6 +67,7 @@ EXTERNAL_INTERFACES = [
     ("苍蓝.kstore", "https://13537.kstore.vip/tvbox/test.json"),
     ("catbox", "https://catbox.n13.club/jk/t4.json"),
     ("影视仓", "http://影视仓.com/"),
+    ("影视仓TOP", "http://影视仓.TOP/"),
     ("UUCCC", "http://xn--5mqx81b535a.com"),
     ("日后", "http://rihou.cc:555/nzk/nzk0722.json"),
     ("真心", "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json"),
@@ -359,11 +360,11 @@ def main():
     merged["parses"] = kept_parses
 
     # 首页保障：影视仓/TVboxOSC 主界面「主页」显示第一个源的首页推荐。
-    # ① 优先把「公共·影视仓」（影视仓官方接口）放第一位（用户指定首页源）；
+    # ① 优先把「公共·影视仓」（影视仓官方接口）放第一位（用户指定首页源，精确匹配，排除 TOP 备用条目）；
     # ② 若官方源被自动剔除，回退到第一个「真实 .jar 爬虫源」置顶，保证主页有推荐。
     home_first = None
     for i, s in enumerate(merged["sites"]):
-        if str(s.get("name", "")).startswith("公共·影视仓"):
+        if str(s.get("name", "")) == "公共·影视仓":
             home_first = (i, s)
             break
     if home_first:
