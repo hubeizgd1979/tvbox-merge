@@ -358,6 +358,18 @@ def main():
             kept_parses.append(p)
     merged["sites"] = kept_sites
     merged["lives"] = kept_lives
+    # 追加自动扫描直播源（vbskycn/iptv：服务器每 6 小时扫描全网公开源并逐台测活；
+    # 447 台，含央视/卫视/电影/儿童/地方/纪录/体育/音乐/春晚分组，无成人内容）
+    EXTRA_LIVES = (
+        {"name": "IPTV4自动扫描(447台)", "url": "https://live.zbds.top/tv/iptv4.txt"},
+        {"name": "IPTV4自动扫描(M3U带EPG)", "url": "https://live.zbds.top/tv/iptv4.m3u",
+         "epg": "http://epg.51zmt.top:8000/e.xml"},
+    )
+    _live_urls = {norm(x.get("url")) for x in merged["lives"] if (x.get("url") or "").strip()}
+    for _x in EXTRA_LIVES:
+        if norm(_x["url"]) not in _live_urls:
+            merged["lives"].append(dict(_x))
+            _live_urls.add(norm(_x["url"]))
     merged["parses"] = kept_parses
 
     # 首页顺序保障：用户指定首页依次为「索尼 → 量子」。
