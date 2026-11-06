@@ -8418,6 +8418,10 @@
    "epg": "http://epg.51zmt.top:8000/e.xml"
   },
   {
+   "name": "IPTV4自建镜像",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hubeizgd1979/iptv/master/tv/iptv4.txt"
+  },
+  {
    "name": "Collect-IPTV(426台)",
    "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u"
   },
