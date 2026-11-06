@@ -377,6 +377,11 @@ def main():
                     break
         if idx is not None:
             ordered.append(merged["sites"].pop(idx))
+    # 用户此前指定「公共·影视仓」为首页源，现排在索尼、量子之后第三位保留曝光
+    for i, s in enumerate(merged["sites"]):
+        if str(s.get("name", "")) == "公共·影视仓":
+            ordered.append(merged["sites"].pop(i))
+            break
     for k, s in enumerate(ordered):
         merged["sites"].insert(k, s)
     if not ordered:
