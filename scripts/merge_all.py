@@ -31,12 +31,6 @@ SOURCES = {
 # 大佬们的最新公共接口（用户提供清单 + Excel + gitlab 道长接口）
 EXTERNAL_INTERFACES = [
     ("枫斗(激活码5678)", "http://枫斗.top/tv"),
-    ("饭太硬.cc", "http://www.饭太硬.cc/tv"),
-    ("饭太硬.net", "http://www.饭太硬.net/tv"),
-    ("饭太硬.xxooo", "http://fty.xxooo.cf/tv"),
-    ("饭太硬.art", "http://www.饭太硬.art/tv"),
-    ("饭太硬.888484", "http://fty.888484.xyz/tv"),
-    ("饭太硬.333232", "http://fty.333232.xyz/tv"),
     ("饭太硬.qist", "https://qist.wyfc.qzz.io/fty.json"),
     ("肥猫.net", "http://肥猫.net/"),
     ("肥猫.hello", "http://hello.肥猫.net"),
