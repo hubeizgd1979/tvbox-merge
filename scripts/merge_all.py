@@ -364,6 +364,8 @@ def main():
         {"name": "IPTV4自动扫描(447台)", "url": "https://live.zbds.top/tv/iptv4.txt"},
         {"name": "IPTV4自动扫描(M3U带EPG)", "url": "https://live.zbds.top/tv/iptv4.m3u",
          "epg": "http://epg.51zmt.top:8000/e.xml"},
+        # 自建镜像（hubeizgd1979/iptv fork，每 4 小时同步上游），上游关站也不受影响
+        {"name": "IPTV4自建镜像", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hubeizgd1979/iptv/master/tv/iptv4.txt"},
         # Collect-IPTV：每 4 小时去重 + 低延迟优选，426 台/30 分组（央视/卫视/港澳台/各省），无成人
         {"name": "Collect-IPTV(426台)", "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u"},
         {"name": "Collect-IPTV(镜像)", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u"},
