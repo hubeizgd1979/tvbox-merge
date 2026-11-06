@@ -166,8 +166,10 @@ def collect_urls(j, base_url):
     return cands
 
 
-def check(url):
-    """核查单个地址：返回 (ok, reason)。非 http(s)（127.0.0.1、clan:// 等）跳过不判无效。$$$ 多参数取首段。"""
+def check(url, reject_image=False):
+    """核查单个地址：返回 (ok, reason)。非 http(s)（127.0.0.1、clan:// 等）跳过不判无效。$$$ 多参数取首段。
+    reject_image=True 时（用于「公共·」外部接口），返回 image/* 的地址判为无效——
+    这类地址通常是占位图/防盗链伪装（同一张占位图服务多个域名），TVBox 填入必然失败。"""
     u = (url or "").strip()
     if not u or not u.startswith(("http://", "https://")):
         return True, "skip(非http)"
@@ -189,6 +191,10 @@ def check(url):
         req = urllib.request.Request(u, headers={"User-Agent": UA}, method="GET")
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             ok = 200 <= r.status < 400
+            if ok and reject_image:
+                ct = (r.headers.get("Content-Type") or "").strip().lower()
+                if ct.startswith("image/"):
+                    return False, "image:%s" % ct
             return ok, "http:%d" % r.status
     except urllib.error.HTTPError as e:
         return False, "http:%d" % e.code
@@ -262,6 +268,7 @@ def main():
     for name in SOURCES:
         if name in data:
             cands += collect_urls(data[name], SOURCES[name])
+    public_urls = {u.strip() for _, u in EXTERNAL_INTERFACES if u.strip()}
     for nm, u in EXTERNAL_INTERFACES:
         if u.strip():
             cands.append(("site", "公共·" + nm, u.strip()))
@@ -273,7 +280,7 @@ def main():
 
     results = {}
     with ThreadPoolExecutor(max_workers=12) as ex:
-        fut = {ex.submit(check, u): u for u in uniq}
+        fut = {ex.submit(check, u, u in public_urls): u for u in uniq}
         for f in as_completed(fut):
             u = fut[f]
             try:
@@ -290,7 +297,8 @@ def main():
             except Exception:
                 return False
         return reason.startswith(("getaddrinfo failed", "url-err", "WinError 10061", "WinError 10054",
-                                  "Connection refused", "远程主机强迫关闭", "目标计算机积极拒绝"))
+                                  "Connection refused", "远程主机强迫关闭", "目标计算机积极拒绝",
+                                  "image:"))
 
     invalid = []
     removed = []
