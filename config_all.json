@@ -6926,6 +6926,14 @@
    "filterable": 1
   },
   {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7769,6 +7777,10 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "http://xhztv.top/xhz/sub/高中课堂.json"
+  },
+  {
+   "name": "公共·枫斗(激活码5678)",
+   "url": "http://枫斗.top/tv"
   },
   {
    "name": "公共·饭太硬.qist",
