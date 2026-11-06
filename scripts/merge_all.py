@@ -67,7 +67,6 @@ EXTERNAL_INTERFACES = [
     ("苍蓝.kstore", "https://13537.kstore.vip/tvbox/test.json"),
     ("catbox", "https://catbox.n13.club/jk/t4.json"),
     ("影视仓", "http://影视仓.com/"),
-    ("影视仓TOP", "http://影视仓.TOP/"),
     ("UUCCC", "http://xn--5mqx81b535a.com"),
     ("日后", "http://rihou.cc:555/nzk/nzk0722.json"),
     ("真心", "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json"),
