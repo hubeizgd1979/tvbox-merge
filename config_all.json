@@ -1339,43 +1339,6 @@
    "changeable": 1
   },
   {
-   "key": "tv_back-023_csp_非凡资源",
-   "name": "🥗┃非凡┃资源·ok线路1",
-   "type": 1,
-   "api": "http://ffzy1.tv/api.php/provide/vod/",
-   "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
-  },
-  {
    "key": "tv_back-023_量子资源",
    "name": "🥑┃量子┃资源·ok线路1",
    "type": 1,
@@ -5839,43 +5802,6 @@
    ]
   },
   {
-   "key": "csp_非凡资源",
-   "name": "🥗┃非凡┃资源",
-   "type": 1,
-   "api": "http://ffzy1.tv/api.php/provide/vod/",
-   "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
-  },
-  {
    "key": "量子资源",
    "name": "🥑┃量子┃资源",
    "type": 1,
@@ -6160,40 +6086,6 @@
    "name": "影视 | 量子[直连]",
    "type": 1,
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "国产剧",
-    "香港剧",
-    "韩国剧",
-    "欧美剧",
-    "记录片",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫"
-   ]
-  },
-  {
-   "key": "非凡",
-   "name": "影视 | 非凡[直连]",
-   "type": 1,
-   "api": "http://ffzy.tv/api.php/provide/vod/",
    "searchable": 1,
    "categories": [
     "动作片",
@@ -7787,10 +7679,6 @@
    "url": "http://www.饭太硬.net/tv"
   },
   {
-   "name": "公共·饭太硬.art",
-   "url": "http://www.饭太硬.art/tv"
-  },
-  {
    "name": "公共·饭太硬.888484",
    "url": "http://fty.888484.xyz/tv"
   },
@@ -7823,28 +7711,12 @@
    "url": "https://9280.kstore.vip/newwex.json"
   },
   {
-   "name": "公共·王二小.top",
-   "url": "http://tvbox.王二小放牛娃.top"
-  },
-  {
-   "name": "公共·王二小.999888987",
-   "url": "http://tv.999888987.xyz/"
-  },
-  {
-   "name": "公共·王二小.999888123",
-   "url": "http://tv.999888123.xyz/"
-  },
-  {
    "name": "公共·王二小.wex",
    "url": "https://9280.kstore.vip/wex.json"
   },
   {
    "name": "公共·王二小.iyouhun",
    "url": "https://www.iyouhun.com/tv/wex"
-  },
-  {
-   "name": "公共·王二小.punycode",
-   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top"
   },
   {
    "name": "公共·欧歌免费",
@@ -7905,10 +7777,6 @@
   {
    "name": "公共·分享",
    "url": "http://hucongrong.web3v.work/%E9%A3%8E%E6%B0%B4/fxz/fxz.json"
-  },
-  {
-   "name": "公共·少儿频道",
-   "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer"
   },
   {
    "name": "公共·电视jsm",
