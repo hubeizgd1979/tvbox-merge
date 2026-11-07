@@ -36,8 +36,7 @@
     "港台综艺",
     "日韩综艺",
     "欧美综艺"
-   ],
-   "changeable": 1
+   ]
   },
   {
    "key": "tv_back-023_量子资源",
@@ -68,18 +67,6 @@
   {
    "name": "公共·影视仓",
    "url": "http://影视仓.com/"
-  },
-  {
-   "key": "Douban",
-   "name": "🐮【免费分享】🐮",
-   "type": 3,
-   "api": "csp_NewDouBanGuard",
-   "indexs": 1,
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
-   "jar": "http://oss4liview.moji.com/thd_file/2026/11/06/99191348af7606ed51e66a4f13a85d8e.jpg;md5;53e039fb19875d5cfec02a0910399ffd"
   },
   {
    "key": "花卷",
@@ -1697,61 +1684,6 @@
    "filterable": 1
   },
   {
-   "key": "tv_back-024_暴風",
-   "name": "🦔暴風┃采集·荐片",
-   "type": 1,
-   "api": "https://bfzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "tv_back-024_360",
-   "name": "🦚360┃采集·荐片",
-   "type": 1,
-   "api": "https://360zy.com/api.php/provide/vod?",
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "古装片",
-    "悬疑片",
-    "犯罪片",
-    "灾难片",
-    "国产剧",
-    "香港剧",
-    "韩国剧",
-    "欧美剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺",
-    "国产动漫",
-    "欧美动漫",
-    "日韩动漫",
-    "现代都市",
-    "脑洞悬疑",
-    "年代穿越",
-    "古装仙侠",
-    "女频恋爱",
-    "成长逆袭",
-    "反转爽剧"
-   ],
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "tv_pref-007_csp_DouDou",
    "name": "🔍聚玩盒子-本接口免费-🈲贩卖·小盒子",
    "type": 3,
@@ -1832,6 +1764,20 @@
    "name": "双星 • 4K·潇洒",
    "type": 3,
    "api": "csp_ShuangXing",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "style": {
+    "type": "list"
+   },
+   "timeout": 60,
+   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
+  },
+  {
+   "key": "tv_back-017_卡卡",
+   "name": "卡卡 • 4K·潇洒",
+   "type": 3,
+   "api": "csp_KKPan",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
@@ -4876,26 +4822,6 @@
    "ext": ".json/txt/ken.txt"
   },
   {
-   "key": "Doubana",
-   "name": "🐮【更新日期:20260911】🐮",
-   "type": 3,
-   "api": "csp_DoubanGuard",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-  },
-  {
-   "key": "Doubanaaa",
-   "name": "⬇️【网盘类先扫码】⬇️",
-   "type": 3,
-   "api": "csp_DoubanGuard",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-  },
-  {
    "key": "Wexconfig",
    "name": "🐮通用类型┃配置中心🐮",
    "type": 3,
@@ -7791,6 +7717,10 @@
    "url": "http://肥猫.net/"
   },
   {
+   "name": "公共·肥猫.hello",
+   "url": "http://hello.肥猫.net"
+  },
+  {
    "name": "公共·肥猫.com",
    "url": "http://肥猫.com"
   },
@@ -8265,6 +8195,12 @@
    "timeZone": "Asia/Shanghai"
   },
   {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "playerType": 2
+  },
+  {
    "name": "虎牙一起看",
    "type": 0,
    "url": "https://sub.ottiptv.cc/huyayqk.m3u",
@@ -8294,25 +8230,12 @@
    "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
   },
   {
-   "name": "24live",
-   "type": 0,
-   "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
-   "playerType": 2,
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
-  },
-  {
-   "name": "16万•MV",
-   "type": 0,
-   "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
-  },
-  {
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-07 03:38:02",
+     "name": "2026-11-07 12:02:25",
      "urls": [
-      "https://0472.org/hls/cgtnd.m3u8"
+      "https://0472.org/hls/cgtna.m3u8"
      ]
     }
    ]
