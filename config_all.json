@@ -6912,6 +6912,14 @@
    "filterable": 1
   },
   {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -8288,9 +8296,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-08 21:27:08",
+     "name": "2026-11-09 03:30:36",
      "urls": [
-      "https://0472.org/hls/cgtn.m3u8"
+      "http://173.208.234.146/live/cctv11.m3u8"
      ]
     }
    ]
