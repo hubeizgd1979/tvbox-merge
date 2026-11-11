@@ -8168,36 +8168,6 @@
    }
   },
   {
-   "name": "巧技二",
-   "type": 1,
-   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-   "ext": {
-    "flag": [
-     "qq",
-     "腾讯",
-     "qiyi",
-     "爱奇艺",
-     "奇艺",
-     "youku",
-     "优酷",
-     "sohu",
-     "搜狐",
-     "letv",
-     "乐视",
-     "mgtv",
-     "芒果",
-     "tnmb",
-     "seven",
-     "bilibili",
-     "1905",
-     "NetFilx"
-    ],
-    "header": {
-     "User-Agent": "okhttp/4.9.1"
-    }
-   }
-  },
-  {
    "name": "我的解析",
    "type": 1,
    "url": "https://your-domain.com/parse?url=",
@@ -8308,18 +8278,6 @@
    "playerType": 2,
    "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
    "logo": "https://live.fanmingming.com/tv/{name}.png"
-  },
-  {
-   "name": "极直播电视(php)",
-   "url": "http://php.cqshushu.ggff.net/jzb.php?公众号【医工学习日志】",
-   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://epg.112114.xyz/logo/{name}.png"
-  },
-  {
-   "name": "88KQ",
-   "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
-   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },
   {
    "name": "16万•MV",
