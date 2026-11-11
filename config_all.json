@@ -36,7 +36,8 @@
     "港台综艺",
     "日韩综艺",
     "欧美综艺"
-   ]
+   ],
+   "changeable": 1
   },
   {
    "key": "tv_back-023_量子资源",
@@ -1685,6 +1686,61 @@
    "filterable": 1
   },
   {
+   "key": "tv_back-024_暴風",
+   "name": "🦔暴風┃采集·荐片",
+   "type": 1,
+   "api": "https://bfzyapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "tv_back-024_360",
+   "name": "🦚360┃采集·荐片",
+   "type": 1,
+   "api": "https://360zy.com/api.php/provide/vod?",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "古装片",
+    "悬疑片",
+    "犯罪片",
+    "灾难片",
+    "国产剧",
+    "香港剧",
+    "韩国剧",
+    "欧美剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "国产动漫",
+    "欧美动漫",
+    "日韩动漫",
+    "现代都市",
+    "脑洞悬疑",
+    "年代穿越",
+    "古装仙侠",
+    "女频恋爱",
+    "成长逆袭",
+    "反转爽剧"
+   ],
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "tv_pref-007_csp_DouDou",
    "name": "🔍聚玩盒子-本接口免费-🈲贩卖·小盒子",
    "type": 3,
@@ -1765,20 +1821,6 @@
    "name": "双星 • 4K·潇洒",
    "type": 3,
    "api": "csp_ShuangXing",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "style": {
-    "type": "list"
-   },
-   "timeout": 60,
-   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
-  },
-  {
-   "key": "tv_back-017_卡卡",
-   "name": "卡卡 • 4K·潇洒",
-   "type": 3,
-   "api": "csp_KKPan",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
@@ -7172,6 +7214,29 @@
    "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
   },
   {
+   "key": "阿里云盘登录",
+   "name": "🐲阿里┃云盘登录",
+   "type": 3,
+   "api": "csp_AliYunPan",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt",
+   "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b"
+  },
+  {
+   "key": "4k_push_agent",
+   "name": "📽推送",
+   "type": 3,
+   "api": "csp_PushAgent",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;d437c6e042174f181efd9649a1a33f48",
+   "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt"
+  },
+  {
    "key": "csp_DouDou",
    "name": "🔍聚玩盒子-本接口免费-🈲贩卖",
    "type": 3,
@@ -8103,6 +8168,36 @@
    }
   },
   {
+   "name": "巧技二",
+   "type": 1,
+   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+   "ext": {
+    "flag": [
+     "qq",
+     "腾讯",
+     "qiyi",
+     "爱奇艺",
+     "奇艺",
+     "youku",
+     "优酷",
+     "sohu",
+     "搜狐",
+     "letv",
+     "乐视",
+     "mgtv",
+     "芒果",
+     "tnmb",
+     "seven",
+     "bilibili",
+     "1905",
+     "NetFilx"
+    ],
+    "header": {
+     "User-Agent": "okhttp/4.9.1"
+    }
+   }
+  },
+  {
    "name": "我的解析",
    "type": 1,
    "url": "https://your-domain.com/parse?url=",
@@ -8207,12 +8302,37 @@
    "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
   },
   {
+   "name": "24live",
+   "type": 0,
+   "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
+   "playerType": 2,
+   "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+   "logo": "https://live.fanmingming.com/tv/{name}.png"
+  },
+  {
+   "name": "极直播电视(php)",
+   "url": "http://php.cqshushu.ggff.net/jzb.php?公众号【医工学习日志】",
+   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+   "logo": "https://epg.112114.xyz/logo/{name}.png"
+  },
+  {
+   "name": "88KQ",
+   "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
+   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+   "logo": "https://epg.112114.xyz/logo/{name}.png"
+  },
+  {
+   "name": "16万•MV",
+   "type": 0,
+   "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
+  },
+  {
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-10 14:04:57",
+     "name": "2026-11-10 22:38:13",
      "urls": [
-      "https://0472.org/hls/cgtna.m3u8"
+      "http://69.30.245.50/live/cctv6.m3u8"
      ]
     }
    ]
