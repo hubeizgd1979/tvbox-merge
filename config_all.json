@@ -6870,14 +6870,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7178,29 +7170,6 @@
    "quickSearch": 1,
    "changeable": 0,
    "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-  },
-  {
-   "key": "阿里云盘登录",
-   "name": "🐲阿里┃云盘登录",
-   "type": 3,
-   "api": "csp_AliYunPan",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt",
-   "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b"
-  },
-  {
-   "key": "4k_push_agent",
-   "name": "📽推送",
-   "type": 3,
-   "api": "csp_PushAgent",
-   "playerType": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;d437c6e042174f181efd9649a1a33f48",
-   "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt"
   },
   {
    "key": "csp_DouDou",
