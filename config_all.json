@@ -8280,9 +8280,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-12 22:57:20",
+     "name": "2026-11-13 03:58:09",
      "urls": [
-      "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009"
+      "https://0472.org/hls/cgtna.m3u8"
      ]
     }
    ]
