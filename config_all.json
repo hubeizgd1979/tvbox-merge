@@ -6912,14 +6912,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7983,6 +7975,10 @@
    }
   },
   {
+   "name": "8090",
+   "url": "https://www.8090g.cn/?url="
+  },
+  {
    "name": "789",
    "type": 0,
    "url": "https://m.789bh.com/?url=",
@@ -8040,6 +8036,43 @@
     "header": {
      "User-Agent": "okhttp/4.1.0"
     }
+   }
+  },
+  {
+   "name": "PM",
+   "url": "https://www.playm3u8.cn/jiexi.php?url=",
+   "type": 0,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   },
+   "header": {
+    "User-Agent": "Mozilla/5.0"
    }
   },
   {
@@ -8161,6 +8194,21 @@
    "name": "ikun",
    "type": 0,
    "url": "https://jx.hls.one/?url="
+  },
+  {
+   "name": "CK",
+   "type": 0,
+   "url": "https://www.ckplayer.vip/jiexi/?url="
+  },
+  {
+   "name": "绣探",
+   "type": 0,
+   "url": "https://www.pangujiexi.com/pangu/?url="
+  },
+  {
+   "name": "8090嗅探",
+   "type": 0,
+   "url": "https://www.8090g.cn/jiexi/?url="
   }
  ],
  "flags": [],
