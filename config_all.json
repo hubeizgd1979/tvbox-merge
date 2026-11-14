@@ -70,6 +70,18 @@
    "url": "http://影视仓.com/"
   },
   {
+   "key": "Douban",
+   "name": "🐮【免费分享】🐮",
+   "type": 3,
+   "api": "csp_NewDouBanGuard",
+   "indexs": 1,
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
+   "jar": "http://oss4liview.moji.com/thd_file/2026/11/12/7b563c7039830e7c712e93f27fd2e102.jpg;md5;541366f5860ceb66e1c3005f5a299afe"
+  },
+  {
    "key": "花卷",
    "name": "💓花卷┃4K💓",
    "type": 3,
@@ -1373,43 +1385,6 @@
    "quickSearch": 1,
    "filterable": 1,
    "jar": "http://xhztv.top/xhz/Yoursmile.jar"
-  },
-  {
-   "key": "tv_back-023_csp_非凡资源",
-   "name": "🥗┃非凡┃资源·ok线路1",
-   "type": 1,
-   "api": "http://ffzy1.tv/api.php/provide/vod/",
-   "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
   },
   {
    "key": "tv_back-023_虎牙",
@@ -4864,6 +4839,26 @@
    "ext": ".json/txt/ken.txt"
   },
   {
+   "key": "Doubana",
+   "name": "🐮【更新日期:20260911】🐮",
+   "type": 3,
+   "api": "csp_DoubanGuard",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+  },
+  {
+   "key": "Doubanaaa",
+   "name": "⬇️【网盘类先扫码】⬇️",
+   "type": 3,
+   "api": "csp_DoubanGuard",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+  },
+  {
    "key": "Wexconfig",
    "name": "🐮通用类型┃配置中心🐮",
    "type": 3,
@@ -5815,43 +5810,6 @@
    ]
   },
   {
-   "key": "csp_非凡资源",
-   "name": "🥗┃非凡┃资源",
-   "type": 1,
-   "api": "http://ffzy1.tv/api.php/provide/vod/",
-   "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
-  },
-  {
    "key": "量子资源",
    "name": "🥑┃量子┃资源",
    "type": 1,
@@ -6136,40 +6094,6 @@
    "name": "影视 | 量子[直连]",
    "type": 1,
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "国产剧",
-    "香港剧",
-    "韩国剧",
-    "欧美剧",
-    "记录片",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫"
-   ]
-  },
-  {
-   "key": "非凡",
-   "name": "影视 | 非凡[直连]",
-   "type": 1,
-   "api": "http://ffzy.tv/api.php/provide/vod/",
    "searchable": 1,
    "categories": [
     "动作片",
@@ -8288,9 +8212,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-13 22:59:14",
+     "name": "2026-11-14 03:56:22",
      "urls": [
-      "https://0472.org/hls/cgtna.m3u8"
+      "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009"
      ]
     }
    ]
