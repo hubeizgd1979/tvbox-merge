@@ -6934,14 +6934,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -8277,6 +8269,12 @@
    "timeZone": "Asia/Shanghai"
   },
   {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "playerType": 2
+  },
+  {
    "name": "虎牙一起看",
    "type": 0,
    "url": "https://sub.ottiptv.cc/huyayqk.m3u",
@@ -8322,9 +8320,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-15 03:39:40",
+     "name": "2026-11-15 13:06:20",
      "urls": [
-      "http://173.208.234.146/live/cctv6.m3u8"
+      "https://0472.org/hls/cgtnd.m3u8"
      ]
     }
    ]
