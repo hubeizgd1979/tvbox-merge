@@ -7799,6 +7799,10 @@
    "url": "http://肥猫.net/"
   },
   {
+   "name": "公共·肥猫.hello",
+   "url": "http://hello.肥猫.net"
+  },
+  {
    "name": "公共·肥猫.com",
    "url": "http://肥猫.com"
   },
@@ -8271,12 +8275,6 @@
    "name": "牛播一",
    "url": "http://127.0.0.1:9978/proxy?do=cctva",
    "timeZone": "Asia/Shanghai"
-  },
-  {
-   "name": "Kimentanm",
-   "type": 0,
-   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-   "playerType": 2
   },
   {
    "name": "虎牙一起看",
