@@ -6934,6 +6934,14 @@
    "filterable": 1
   },
   {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7789,10 +7797,6 @@
   {
    "name": "公共·肥猫.net",
    "url": "http://肥猫.net/"
-  },
-  {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
   },
   {
    "name": "公共·肥猫.com",
