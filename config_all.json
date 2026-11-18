@@ -1387,24 +1387,6 @@
    "jar": "http://xhztv.top/xhz/Yoursmile.jar"
   },
   {
-   "key": "tv_back-026_feifan",
-   "name": "🍀┃非凡┃资源·1号VIP源",
-   "type": 1,
-   "api": "http://ffzy5.tv/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "韩国剧",
-    "欧美剧",
-    "台湾剧",
-    "战争片",
-    "国产剧",
-    "大陆综艺"
-   ],
-   "hide": 1
-  },
-  {
    "key": "tv_back-023_csp_非凡资源",
    "name": "🥗┃非凡┃资源·ok线路1",
    "type": 1,
@@ -1474,6 +1456,24 @@
     "欧美动漫"
    ],
    "filterable": 1
+  },
+  {
+   "key": "tv_back-012_feifan",
+   "name": "🍀┃非凡┃资源·二月红接口",
+   "type": 1,
+   "api": "http://ffzy5.tv/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "韩国剧",
+    "欧美剧",
+    "台湾剧",
+    "战争片",
+    "国产剧",
+    "大陆综艺"
+   ],
+   "hide": 1
   },
   {
    "key": "tv_back-023_taopian",
@@ -1793,6 +1793,53 @@
    "filterable": 1,
    "ext": "http://xhztv.top/xhz/sub/Bili.json",
    "jar": "http://xhztv.top/xhz/Yoursmile.jar"
+  },
+  {
+   "key": "tv_back-017_种子",
+   "name": "种子 • 4K·潇洒",
+   "type": 3,
+   "api": "csp_SeedHub",
+   "searchable": 1,
+   "quickSearch": 0,
+   "ext": {
+    "site": [
+     "https://sidhub.cc",
+     "https://seeduck.cc",
+     "https://hubdog.cc",
+     "http://104.243.25.80"
+    ]
+   },
+   "timeout": 60,
+   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar",
+   "filterable": 1
+  },
+  {
+   "key": "tv_back-017_即刻",
+   "name": "即刻 • 4K·潇洒",
+   "type": 3,
+   "api": "csp_Jike",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "style": {
+    "type": "list"
+   },
+   "timeout": 60,
+   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
+  },
+  {
+   "key": "tv_back-017_双星",
+   "name": "双星 • 4K·潇洒",
+   "type": 3,
+   "api": "csp_ShuangXing",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "style": {
+    "type": "list"
+   },
+   "timeout": 60,
+   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
   },
   {
    "key": "drpy_js_虎牙直播",
@@ -8176,9 +8223,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-18 00:18:46",
+     "name": "2026-11-18 14:44:39",
      "urls": [
-      "http://192.151.150.154/live/cctv8hd.m3u8"
+      "http://74.91.26.218:82/live/cctv10hd.m3u8"
      ]
     }
    ]
