@@ -1387,6 +1387,24 @@
    "jar": "http://xhztv.top/xhz/Yoursmile.jar"
   },
   {
+   "key": "tv_back-026_feifan",
+   "name": "🍀┃非凡┃资源·1号VIP源",
+   "type": 1,
+   "api": "http://ffzy5.tv/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "韩国剧",
+    "欧美剧",
+    "台湾剧",
+    "战争片",
+    "国产剧",
+    "大陆综艺"
+   ],
+   "hide": 1
+  },
+  {
    "key": "tv_back-023_csp_非凡资源",
    "name": "🥗┃非凡┃资源·ok线路1",
    "type": 1,
@@ -1456,24 +1474,6 @@
     "欧美动漫"
    ],
    "filterable": 1
-  },
-  {
-   "key": "tv_back-012_feifan",
-   "name": "🍀┃非凡┃资源·二月红接口",
-   "type": 1,
-   "api": "http://ffzy5.tv/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "韩国剧",
-    "欧美剧",
-    "台湾剧",
-    "战争片",
-    "国产剧",
-    "大陆综艺"
-   ],
-   "hide": 1
   },
   {
    "key": "tv_back-023_taopian",
@@ -1793,53 +1793,6 @@
    "filterable": 1,
    "ext": "http://xhztv.top/xhz/sub/Bili.json",
    "jar": "http://xhztv.top/xhz/Yoursmile.jar"
-  },
-  {
-   "key": "tv_back-017_种子",
-   "name": "种子 • 4K·潇洒",
-   "type": 3,
-   "api": "csp_SeedHub",
-   "searchable": 1,
-   "quickSearch": 0,
-   "ext": {
-    "site": [
-     "https://sidhub.cc",
-     "https://seeduck.cc",
-     "https://hubdog.cc",
-     "http://104.243.25.80"
-    ]
-   },
-   "timeout": 60,
-   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar",
-   "filterable": 1
-  },
-  {
-   "key": "tv_back-017_即刻",
-   "name": "即刻 • 4K·潇洒",
-   "type": 3,
-   "api": "csp_Jike",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "style": {
-    "type": "list"
-   },
-   "timeout": 60,
-   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
-  },
-  {
-   "key": "tv_back-017_双星",
-   "name": "双星 • 4K·潇洒",
-   "type": 3,
-   "api": "csp_ShuangXing",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "style": {
-    "type": "list"
-   },
-   "timeout": 60,
-   "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
   },
   {
    "key": "drpy_js_虎牙直播",
@@ -7857,32 +7810,6 @@
    }
   },
   {
-   "name": "剖云",
-   "type": 0,
-   "url": "https://www.pouyun.com/?url=",
-   "ext": {
-    "flag": [
-     "qq",
-     "腾讯",
-     "qiyi",
-     "爱奇艺",
-     "奇艺",
-     "youku",
-     "优酷",
-     "mgtv",
-     "芒果",
-     "letv",
-     "乐视",
-     "pptv",
-     "PPTV",
-     "sohu",
-     "bilibili",
-     "哔哩哔哩",
-     "哔哩"
-    ]
-   }
-  },
-  {
    "name": "freejson",
    "type": 0,
    "url": "https://h5.freejson.xyz/player/?url="
@@ -8223,9 +8150,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-18 14:44:39",
+     "name": "2026-11-19 00:00:01",
      "urls": [
-      "http://74.91.26.218:82/live/cctv10hd.m3u8"
+      "https://0472.org/hls/cgtna.m3u8"
      ]
     }
    ]
