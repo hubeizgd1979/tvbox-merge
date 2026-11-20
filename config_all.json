@@ -8197,9 +8197,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-19 23:59:29",
+     "name": "2026-11-20 05:58:55",
      "urls": [
-      "http://74.91.26.218:82/live/cctv10hd.m3u8"
+      "https://0472.org/hls/cgtna.m3u8"
      ]
     }
    ]
