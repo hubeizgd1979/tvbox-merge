@@ -6834,14 +6834,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7699,10 +7691,6 @@
    "url": "http://肥猫.net/"
   },
   {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
-  },
-  {
    "name": "公共·肥猫.com",
    "url": "http://肥猫.com"
   },
@@ -8223,9 +8211,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-20 23:28:36",
+     "name": "2026-11-21 04:40:35",
      "urls": [
-      "http://74.91.26.218:82/live/cctv2hd.m3u8"
+      "https://0472.org/hls/cgtna.m3u8"
      ]
     }
    ]
