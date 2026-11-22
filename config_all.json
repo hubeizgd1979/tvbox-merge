@@ -4467,6 +4467,10 @@
      {
       "name": "Kazumi",
       "url": "https://pan.quark.cn/s/e77ca870e15e"
+     },
+     {
+      "name": "LxMusic",
+      "url": "https://pan.quark.cn/s/c24085164146"
      }
     ]
    }
@@ -4493,16 +4497,39 @@
    "type": 3,
    "api": "csp_Duopan",
    "filterable": 1,
+   "timeout": 30,
    "ext": {
     "site_urls": [
-     "http://shandian.blog/",
-     "http://sd.sduc.site/"
+     "http://oo.sduc.site/"
     ],
     "threadinfo": {
      "chunksize": 512,
      "threads": 16
     },
     "url_key": "FeiMaoUC"
+   }
+  },
+  {
+   "key": "csp_Duopan",
+   "name": "🖍︎┃蜡笔┃影视",
+   "type": 3,
+   "api": "csp_Duopan",
+   "filterable": 1,
+   "ext": {
+    "site_urls": [
+     "http://xiaocge.fun",
+     "http://feimo.fun",
+     "http://www.labi88.sbs",
+     "http://fmao.site",
+     "http://fmao.shop",
+     "http://xiaocgege.shop",
+     "http://www.xiaocgege.shop"
+    ],
+    "threadinfo": {
+     "chunksize": 512,
+     "threads": 16
+    },
+    "url_key": "Duopan2"
    }
   },
   {
@@ -4632,17 +4659,6 @@
    "type": 3,
    "api": "csp_Gz360",
    "playerType": 2
-  },
-  {
-   "key": "厂长",
-   "name": "🏭┃厂长┃影视",
-   "type": 3,
-   "playerType": "2",
-   "api": "csp_Czsapp",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://cz01.vip"
   },
   {
    "key": "csp_SP360",
@@ -5370,7 +5386,7 @@
    "changeable": 1
   },
   {
-   "key": "laoliubei_厂长",
+   "key": "厂长",
    "name": "📔┃厂长┃不卡",
    "type": 3,
    "api": "csp_NewCz",
@@ -5955,6 +5971,16 @@
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
    }
+  },
+  {
+   "key": "应用商店",
+   "name": "应用商店",
+   "type": 3,
+   "api": "csp_Market",
+   "searchable": 0,
+   "changeable": 0,
+   "ext": "https://szyyds.cn/js/app.json",
+   "jar": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"
   },
   {
    "key": "xiaoma_push_agent",
@@ -6775,6 +6801,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
+  },
+  {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
   },
   {
    "key": "小柚",
@@ -7628,10 +7662,6 @@
   {
    "name": "公共·饭太硬.qist",
    "url": "https://qist.wyfc.qzz.io/fty.json"
-  },
-  {
-   "name": "公共·肥猫.net",
-   "url": "http://肥猫.net/"
   },
   {
    "name": "公共·肥猫.com",
