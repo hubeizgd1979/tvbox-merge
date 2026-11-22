@@ -7634,10 +7634,6 @@
    "url": "http://肥猫.net/"
   },
   {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
-  },
-  {
    "name": "公共·肥猫.com",
    "url": "http://肥猫.com"
   },
@@ -8158,9 +8154,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-21 22:33:23",
+     "name": "2026-11-22 03:55:37",
      "urls": [
-      "http://74.91.26.218:82/live/cctv2hd.m3u8"
+      "https://0472.org/hls/cgtnd.m3u8"
      ]
     }
    ]
