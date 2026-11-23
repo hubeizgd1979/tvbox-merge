@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23 12:56:52 UTC",
+ "generated_at": "2026-11-23 16:51:17 UTC",
  "sources": {
   "tvbox-config": {
    "fetch": "ok",
@@ -20,20 +20,14 @@
    "added": 68
   }
  },
- "total_sites": 721,
+ "total_sites": 722,
  "total_lives": 27,
  "checked_urls": 772,
- "valid_urls": 432,
+ "valid_urls": 434,
  "skipped_urls": 17,
- "invalid_count": 323,
- "removed_count": 322,
+ "invalid_count": 321,
+ "removed_count": 321,
  "invalid": [
-  {
-   "type": "site",
-   "name": "蓝光影院(XBPQ)·俊哥",
-   "url": "https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
   {
    "type": "site",
    "name": "✨新视觉·小盒子",
@@ -54,8 +48,8 @@
   },
   {
    "type": "site",
-   "name": "👒┃小胡┃资源┃·ok线路1",
-   "url": "http://c.小胡.icu/api.php/provide/vod/",
+   "name": "蓝光影院(XBPQ)·俊哥",
+   "url": "https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
@@ -78,6 +72,12 @@
   },
   {
    "type": "site",
+   "name": "👒┃小胡┃资源┃·ok线路1",
+   "url": "http://c.小胡.icu/api.php/provide/vod/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "🛰️飞速┃采集·ok线路1",
    "url": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
@@ -90,14 +90,14 @@
   },
   {
    "type": "site",
-   "name": "🎹┃MTV┃合集·ok线路1",
-   "url": "https://mv.wogg.link/mv/vod",
-   "reason": "http:401"
+   "name": "💖┃花卷┃4K💖·1号VIP源",
+   "url": "http://118.89.172.248:8025/jar/tan.php",
+   "reason": "http:404"
   },
   {
    "type": "live",
-   "name": "综合直播",
-   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "name": "IPV6",
+   "url": "https://raw.liucn.cc/box/lib/tv/ipv6.m3u",
    "reason": "http:404"
   },
   {
@@ -108,14 +108,8 @@
   },
   {
    "type": "live",
-   "name": "肥猫",
-   "url": "http://我不是.肥猫.live/TV/tvzb.txt",
-   "reason": "http:404"
-  },
-  {
-   "type": "live",
-   "name": "IPV6",
-   "url": "https://raw.liucn.cc/box/lib/tv/ipv6.m3u",
+   "name": "综合直播",
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
    "reason": "http:404"
   },
   {
@@ -135,6 +129,12 @@
    "name": "港澳台",
    "url": "http://rihou.cc:567/gggg.nzk",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "live",
+   "name": "肥猫",
+   "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+   "reason": "http:404"
   },
   {
    "type": "live",
@@ -167,10 +167,10 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "site",
-   "name": "💖┃花卷┃4K💖·1号VIP源",
-   "url": "http://118.89.172.248:8025/jar/tan.php",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "parwix稳定",
+   "url": "https://jx.bozrc.com:4433/player/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -180,27 +180,9 @@
   },
   {
    "type": "parse",
-   "name": "777",
-   "url": "https://jx.777jiexi.com/player/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
-   "name": "parwix稳定",
-   "url": "https://jx.bozrc.com:4433/player/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
    "name": "EXO",
    "url": "https://rx.69mj.com/?url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
-  },
-  {
-   "type": "parse",
-   "name": "懒懒2",
-   "url": "http://lanlan.ckflv.cn/?url=",
-   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "parse",
@@ -210,15 +192,27 @@
   },
   {
    "type": "parse",
-   "name": "神秘的哥哥们",
-   "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "name": "懒懒2",
+   "url": "http://lanlan.ckflv.cn/?url=",
+   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "parse",
    "name": "肥猫最可爱",
    "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
    "reason": "http:502"
+  },
+  {
+   "type": "parse",
+   "name": "神秘的哥哥们",
+   "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "parse",
+   "name": "公众号：肥猫宝贝",
+   "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+   "reason": "http:404"
   },
   {
    "type": "parse",
@@ -233,12 +227,6 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "parse",
-   "name": "全民",
-   "url": "http://api.wpsseo.cn/?v=",
-   "reason": "http:526"
-  },
-  {
    "type": "site",
    "name": "蓝光影院(XBPQ)·俊哥",
    "url": "http://home.jundie.top:81/jar/top98_1.jar",
@@ -246,15 +234,15 @@
   },
   {
    "type": "parse",
-   "name": "公众号：肥猫宝贝",
-   "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-   "reason": "http:404"
+   "name": "全民",
+   "url": "http://api.wpsseo.cn/?v=",
+   "reason": "http:526"
   },
   {
-   "type": "parse",
-   "name": "赞赞",
-   "url": "https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "site",
+   "name": "🎹┃MTV┃合集·ok线路1",
+   "url": "https://mv.wogg.link/mv/vod",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "live",
@@ -273,6 +261,18 @@
    "name": "二",
    "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "parse",
+   "name": "赞赞",
+   "url": "https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "parse",
+   "name": "777",
+   "url": "https://jx.777jiexi.com/player/?url=",
+   "reason": "<urlopen error _ssl.c:1001: The handshake operation timed ou"
   },
   {
    "type": "parse",
@@ -299,6 +299,18 @@
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
+   "type": "site",
+   "name": "影视 | 西门[V2]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox/master/js/西门[V2].js",
+   "reason": "http:404"
+  },
+  {
+   "type": "parse",
+   "name": "jsonplayer",
+   "url": "https://jx.jsonplayer.com/player/?url=",
+   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
+  },
+  {
    "type": "parse",
    "name": "巧技",
    "url": "http://pandown.pro/app/kkdy.php?url=",
@@ -311,16 +323,16 @@
    "reason": "<urlopen error timed out>"
   },
   {
-   "type": "site",
-   "name": "影视 | 西门[V2]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox/master/js/西门[V2].js",
-   "reason": "http:404"
-  },
-  {
    "type": "parse",
    "name": "飞云",
    "url": "http://122.228.84.103:7777/api/?key=o9fQb0Jvz0qZzY19Jq&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "parse",
+   "name": "飞云",
+   "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "parse",
@@ -329,16 +341,10 @@
    "reason": "<urlopen error timed out>"
   },
   {
-   "type": "parse",
-   "name": "亮亮",
-   "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "parse",
-   "name": "飞云",
-   "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "site",
+   "name": "📀┃光盘┃APP",
+   "url": "http://103.217.190.91:5566",
+   "reason": "http:404"
   },
   {
    "type": "live",
@@ -353,15 +359,15 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "site",
-   "name": "📚┃儿童┃启蒙",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/api/drpy2.min.js",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "亮亮",
+   "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "site",
    "name": "📚┃儿童┃启蒙",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/js/兔小贝.js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/api/drpy2.min.js",
    "reason": "http:404"
   },
   {
@@ -372,15 +378,15 @@
   },
   {
    "type": "site",
-   "name": "🔥┃设置Token",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/Token.jar",
+   "name": "📚┃儿童┃启蒙",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/js/兔小贝.js",
    "reason": "http:404"
   },
   {
-   "type": "parse",
-   "name": "巧技二",
-   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-   "reason": "<urlopen error timed out>"
+   "type": "site",
+   "name": "🔥┃设置Token",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/Token.jar",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -390,14 +396,14 @@
   },
   {
    "type": "site",
-   "name": "📺︎┃电视┃点播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/tv/zb.min.js",
+   "name": "🎰┃蜂蜜┃商店",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/app.jar",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🎰┃蜂蜜┃商店",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/app.jar",
+   "name": "📺︎┃电视┃点播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/tv/zb.min.js",
    "reason": "http:404"
   },
   {
@@ -438,12 +444,6 @@
   },
   {
    "type": "site",
-   "name": "🏜┃潮流┃APP",
-   "url": "http://v.rbotv.cn",
-   "reason": "Remote end closed connection without response"
-  },
-  {
-   "type": "site",
    "name": "💢┃耐看┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvlog.json",
    "reason": "http:404"
@@ -453,6 +453,12 @@
    "name": "💢┃耐看┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/HCCX.jar",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🏜┃潮流┃APP",
+   "url": "http://v.rbotv.cn",
+   "reason": "Remote end closed connection without response"
   },
   {
    "type": "site",
@@ -480,12 +486,6 @@
   },
   {
    "type": "site",
-   "name": "🖍︎┃蜡笔┃云盘",
-   "url": "https://duopan.fun/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
    "name": "💢┃兄弟┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/兄弟.json",
    "reason": "http:404"
@@ -504,8 +504,14 @@
   },
   {
    "type": "site",
-   "name": "🎦┃VS┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/VS影院.json",
+   "name": "🖍︎┃蜡笔┃云盘",
+   "url": "https://duopan.fun/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🍁┃久久┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/jojo.json",
    "reason": "http:404"
   },
   {
@@ -516,20 +522,32 @@
   },
   {
    "type": "site",
+   "name": "🎦┃VS┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/VS影院.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🍖┃电影牛┃影院",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/电影牛.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🍁┃久久┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/jojo.json",
+   "name": "🎧有声┃小说",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/有声小说吧.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🎧有声┃小说",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/有声小说吧.js",
+   "name": "💣┃磁力p2p┃搜索",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/lf_p2p1_min.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "👀┃快看┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/P4.jar",
    "reason": "http:404"
   },
   {
@@ -546,45 +564,15 @@
   },
   {
    "type": "site",
-   "name": "🗽┃六九┃美剧",
-   "url": "https://www.69mj.com/xgapp.php/v2/",
-   "reason": "http:403"
-  },
-  {
-   "type": "site",
-   "name": "💣┃磁力p2p┃搜索",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/lf_p2p1_min.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "💮┃鸭鸭┃App",
-   "url": "https://yayayaaapp.ynf.icu/api.php/app/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🥇┃鑫鑫┃App",
-   "url": "http://yingszj.xn--654a.cc/api.php/app/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "👀┃快看┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/P4.jar",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📀┃光盘┃APP",
-   "url": "http://103.217.190.91:5566",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🏰┃圣城┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/SC1080.js",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🗽┃六九┃美剧",
+   "url": "https://www.69mj.com/xgapp.php/v2/",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -594,20 +582,32 @@
   },
   {
    "type": "site",
+   "name": "🥇┃鑫鑫┃App",
+   "url": "http://yingszj.xn--654a.cc/api.php/app/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "💮┃鸭鸭┃App",
+   "url": "https://yayayaaapp.ynf.icu/api.php/app/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "🌝┃益达┃App",
    "url": "https://myd666.tv/lvdou_api.php/v1.vod",
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "site",
-   "name": "❤┃爱看┃蓝光",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/爱看.js",
+   "name": "🕵‍┃特工┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/007.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🍩┃奇优┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/奇优.js",
+   "name": "❤┃爱看┃蓝光",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/爱看.js",
    "reason": "http:404"
   },
   {
@@ -618,14 +618,14 @@
   },
   {
    "type": "site",
-   "name": "🎃┃南瓜┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/南瓜.js",
+   "name": "🍩┃奇优┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/奇优.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🕵‍┃特工┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/007.js",
+   "name": "🎃┃南瓜┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/南瓜.js",
    "reason": "http:404"
   },
   {
@@ -635,15 +635,15 @@
    "reason": "http:404"
   },
   {
-   "type": "site",
-   "name": "🏭️┃厂长┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/czspp.js",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "巧技二",
+   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "site",
-   "name": "🐵┃师兄┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/大师兄影视.js",
+   "name": "⏳┃荐片┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/荐片.js",
    "reason": "http:404"
   },
   {
@@ -654,32 +654,8 @@
   },
   {
    "type": "site",
-   "name": "⏳┃荐片┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/荐片.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "👨‍🌾┃农民┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/nongmin.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐠┃视觉┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/xsj.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🥝┃爱奇异(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/iqiyi.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌟┃三五┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/555.js",
+   "name": "🏭️┃厂长┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/czspp.js",
    "reason": "http:404"
   },
   {
@@ -690,20 +666,20 @@
   },
   {
    "type": "site",
-   "name": "🐧┃腾讯(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/qq.js",
+   "name": "🐵┃师兄┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/大师兄影视.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🥭┃芒果(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/mgtv.js",
+   "name": "🐠┃视觉┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/xsj.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🥔┃优酷(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/youku.js",
+   "name": "👨‍🌾┃农民┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/nongmin.js",
    "reason": "http:404"
   },
   {
@@ -714,8 +690,32 @@
   },
   {
    "type": "site",
-   "name": "🚛┃搜狗(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/caigou.js",
+   "name": "🌟┃三五┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/555.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥝┃爱奇异(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/iqiyi.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🐧┃腾讯(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/qq.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥔┃优酷(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/youku.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥭┃芒果(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/mgtv.js",
    "reason": "http:404"
   },
   {
@@ -732,8 +732,8 @@
   },
   {
    "type": "site",
-   "name": "🍋┃百忙┃无果",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/百忙无果.js",
+   "name": "🚛┃搜狗(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/caigou.js",
    "reason": "http:404"
   },
   {
@@ -744,38 +744,14 @@
   },
   {
    "type": "site",
+   "name": "🍋┃百忙┃无果",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/百忙无果.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🐜1080P┃蚂蚁",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/c.jar",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🔥┃骚火┃电影",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/骚火2.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🔥┃热播┃之家",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/热播之家.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "👌┃赞赞┃切片",
-   "url": "http://111.230.51.151:2323/api.php/app/",
-   "reason": "<urlopen error [Errno 111] Connection refused>"
-  },
-  {
-   "type": "site",
-   "name": "🦊┃黑狐┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/黑狐.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐦┃乌鸦┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/乌鸦.json",
    "reason": "http:404"
   },
   {
@@ -786,38 +762,32 @@
   },
   {
    "type": "site",
+   "name": "🐦┃乌鸦┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/乌鸦.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🔥┃热播┃之家",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/热播之家.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🔥┃骚火┃电影",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/骚火2.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🦊┃黑狐┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/黑狐.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🥚┃蛋蛋┃看剧",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/蛋蛋剧.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🛀┃03┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/03yy.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🍄┃蘑菇┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蘑菇.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📻┃评书┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/评书.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌊┃蛋蛋┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蛋蛋影视.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐯┃胖虎┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/胖虎.json",
    "reason": "http:404"
   },
   {
@@ -828,14 +798,38 @@
   },
   {
    "type": "site",
-   "name": "🧼┃奇优┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/奇优影院.json",
+   "name": "📻┃评书┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/评书.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🦝┃黑狐┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/黑狐影视.json",
+   "name": "🐯┃胖虎┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/胖虎.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🍄┃蘑菇┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蘑菇.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🛀┃03┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/03yy.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🌊┃蛋蛋┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蛋蛋影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🧼┃奇优┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/奇优影院.json",
    "reason": "http:404"
   },
   {
@@ -846,8 +840,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃骚火┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/骚火影视.json",
+   "name": "🦝┃黑狐┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/黑狐影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃TVB┃云播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/TVB云播.json",
    "reason": "http:404"
   },
   {
@@ -864,20 +864,20 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃TVB┃云播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/TVB云播.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃爱看┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/爱看影视.json",
+   "name": "🅱️┃骚火┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/骚火影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
    "name": "🅱️┃疯狗┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/疯狗影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃爱看┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/爱看影视.json",
    "reason": "http:404"
   },
   {
@@ -894,14 +894,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃超前┃点播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/超前B站.json",
+   "name": "🅱️┃4K┃剧院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/4k剧院.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃4K┃剧院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/4k剧院.json",
+   "name": "🅱️┃超前┃点播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/超前B站.json",
    "reason": "http:404"
   },
   {
@@ -912,14 +912,20 @@
   },
   {
    "type": "site",
+   "name": "🅱️┃午舞┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/五五影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🅱️┃视觉┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/新视觉影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃午舞┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/五五影视.json",
+   "name": "🅱️┃好戏┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/好戏影视.json",
    "reason": "http:404"
   },
   {
@@ -936,14 +942,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃348┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/348影视.json",
+   "name": "🅱️┃土豪┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/土豪影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃土豪┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/土豪影视.json",
+   "name": "🅱️┃348┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/348影视.json",
    "reason": "http:404"
   },
   {
@@ -966,12 +972,6 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃好戏┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/好戏影视.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🅱️┃非凡┃资源",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/非凡资源网.json",
    "reason": "http:404"
@@ -983,21 +983,9 @@
    "reason": "http:404"
   },
   {
-   "type": "parse",
-   "name": "jsonplayer",
-   "url": "https://jx.jsonplayer.com/player/?url=",
-   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
-  },
-  {
    "type": "site",
    "name": "💢┃南柯┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkdyw.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌾┃VOF┃高清",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/voflix.json",
    "reason": "http:404"
   },
   {
@@ -1008,14 +996,14 @@
   },
   {
    "type": "site",
-   "name": "💢┃耐看┃电影",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvod.json",
+   "name": "🌾┃VOF┃高清",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/voflix.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🧲世界磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/4khdr.js",
+   "name": "💢┃耐看┃电影",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvod.json",
    "reason": "http:404"
   },
   {
@@ -1026,8 +1014,8 @@
   },
   {
    "type": "site",
-   "name": "🐻‍贝尔磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/bear.js",
+   "name": "🧲世界磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/4khdr.js",
    "reason": "http:404"
   },
   {
@@ -1038,14 +1026,14 @@
   },
   {
    "type": "site",
-   "name": "😎酷吧磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/dr/kuba.js",
+   "name": "🐻‍贝尔磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/bear.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🛳┃港口┃磁力",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/港口.json",
+   "name": "😎酷吧磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/dr/kuba.js",
    "reason": "http:404"
   },
   {
@@ -1062,26 +1050,8 @@
   },
   {
    "type": "site",
-   "name": "🏀┃企鹅┃体育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/qie.py",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐧企鹅┃直播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/企鹅直播.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📺央视｜少儿",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/py_央视少儿.py",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📺央视｜经典",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/哔哩经典.json",
+   "name": "🛳┃港口┃磁力",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/港口.json",
    "reason": "http:404"
   },
   {
@@ -1092,14 +1062,56 @@
   },
   {
    "type": "site",
+   "name": "📺央视｜少儿",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/py_央视少儿.py",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🐧企鹅┃直播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/企鹅直播.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🏀┃企鹅┃体育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/qie.py",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "❤️┃央视┃py",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/cctv.py",
    "reason": "http:404"
   },
   {
    "type": "site",
+   "name": "🎤┃酷奇┃音乐",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/酷奇MV.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📺央视｜经典",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/哔哩经典.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "⚽ 88┃看球",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/88看球.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "⚽ Jrs┃球迷",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/jrk.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "⚽310┃看球",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/310直播.js",
    "reason": "http:404"
   },
   {
@@ -1116,32 +1128,8 @@
   },
   {
    "type": "site",
-   "name": "🎤酷奇┃MV",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/酷奇MV.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "⚽310┃看球",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/310直播.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🎤┃酷奇┃音乐",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/酷奇MV.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🎦┃短剧┃BiL",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/Bili短剧.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "⚽ 88┃看球",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/88看球.js",
+   "name": "📽️聚短┃视频",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/短视频.js",
    "reason": "http:404"
   },
   {
@@ -1152,14 +1140,20 @@
   },
   {
    "type": "site",
+   "name": "🎤酷奇┃MV",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/酷奇MV.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🎧有声┃小说",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/有声小说吧.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "📽️聚短┃视频",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/短视频.js",
+   "name": "🎦┃短剧┃BiL",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/Bili短剧.json",
    "reason": "http:404"
   },
   {
@@ -1188,32 +1182,14 @@
   },
   {
    "type": "site",
-   "name": "📚少儿┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/少儿教育.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📚初中┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/初中课堂.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "📚儿童┃启蒙",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/兔小贝.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "📚小学┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/小学课堂.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📚高中┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/高中课堂.json",
+   "name": "📚少儿┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/少儿教育.json",
    "reason": "http:404"
   },
   {
@@ -1224,8 +1200,14 @@
   },
   {
    "type": "site",
-   "name": "💃┃搭配┃教程",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/搭配.json",
+   "name": "📚高中┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/高中课堂.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📚初中┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/初中课堂.json",
    "reason": "http:404"
   },
   {
@@ -1236,14 +1218,20 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃哔哩┃精简",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/B站精简.js",
+   "name": "💃┃搭配┃教程",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/搭配.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃美食┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/美食合集.json",
+   "name": "📚小学┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/小学课堂.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃哔哩┃精简",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/B站精简.js",
    "reason": "http:404"
   },
   {
@@ -1254,14 +1242,8 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃中医┃药区",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/中医.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃初中┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/初中.json",
+   "name": "🅱️┃美食┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/美食合集.json",
    "reason": "http:404"
   },
   {
@@ -1272,8 +1254,32 @@
   },
   {
    "type": "site",
+   "name": "🅱️┃初中┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/初中.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃高中┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/高中.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃中医┃药区",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/中医.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🅱️┃戏曲┃合集",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/戏曲.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃体育┃健身",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/体育.json",
    "reason": "http:404"
   },
   {
@@ -1290,56 +1296,8 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃高中┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/高中.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃音悦┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/音悦.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🅱️┃歌手┃合集",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌手.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃歌曲┃演唱",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌曲.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃哔哩┃直播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/哔哩直播.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃体育┃健身",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/体育.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "网盘 | Alist[js]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.min.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "网盘 | Alist[js]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "WebDAV",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/webdav.json",
    "reason": "http:404"
   },
   {
@@ -1350,8 +1308,26 @@
   },
   {
    "type": "site",
-   "name": "📱┃网红┃美女",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/短视频聚合.json",
+   "name": "🅱️┃女团┃热舞",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/女团.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃音悦┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/音悦.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃歌曲┃演唱",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌曲.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "网盘 | Alist[js]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.json",
    "reason": "http:404"
   },
   {
@@ -1362,9 +1338,33 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃女团┃热舞",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/女团.json",
+   "name": "网盘 | Alist[js]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.min.js",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃哔哩┃直播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/哔哩直播.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "WebDAV",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/webdav.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📱┃网红┃美女",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/短视频聚合.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "👌┃赞赞┃切片",
+   "url": "http://111.230.51.151:2323/api.php/app/",
+   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "site",
@@ -1374,14 +1374,20 @@
   },
   {
    "type": "site",
+   "name": "📢公告停更",
+   "url": "https://xn--dkw0c.v.nxog.top/m/公告?b=欧歌",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+  },
+  {
+   "type": "site",
    "name": "🔥┃小胡┃4K",
    "url": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
-   "name": "📢公告停更",
-   "url": "https://xn--dkw0c.v.nxog.top/m/公告?b=欧歌",
+   "name": "🛒本地包更新",
+   "url": "https://xn--dkw0c.v.nxog.top/zm/sd?b=欧歌",
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
@@ -1398,9 +1404,33 @@
   },
   {
    "type": "site",
-   "name": "📺┃网红┃直播",
-   "url": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
-   "reason": "http:404"
+   "name": "👼┃七新┃2K",
+   "url": "http://rihou.vip:88/hccx/七新影视.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "👼┃七新┃2K",
+   "url": "http://rihou.vip:88/hccx/HeChengChaXiu.jar",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃大全",
+   "url": "http://rihou.vip:88/hccx/央视大全.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃少儿",
+   "url": "http://rihou.vip:88/hccx/py_央视少儿.py",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃经典",
+   "url": "http://rihou.vip:88/hccx/哔哩经典.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
@@ -1410,15 +1440,21 @@
   },
   {
    "type": "site",
-   "name": "📢接口软件永远免费",
-   "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/py_douban.py",
+   "name": "📺┃网红┃直播",
+   "url": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🛒本地包更新",
-   "url": "https://xn--dkw0c.v.nxog.top/zm/sd?b=欧歌",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "🧲┃荐片┃磁力",
+   "url": "http://rihou.vip:55/lib/drpy2.min.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🧲┃荐片┃磁力",
+   "url": "http://rihou.vip:55/lib/jianpian.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
@@ -1428,15 +1464,105 @@
   },
   {
    "type": "site",
+   "name": "🕶┃耐看┃影视",
+   "url": "http://xiaohu.xzam.cn/XBPQ/nk.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🐻┃熊掌┃高清",
+   "url": "https://xzcjz.com/api.php/provide/vod",
+   "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "site",
    "name": "🧡┃360┃官源",
    "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js/360%E5%BD%B1%E8%A7%86.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🕶┃耐看┃影视",
-   "url": "http://xiaohu.xzam.cn/XBPQ/nk.json",
+   "name": "🎗┃奈飞┃秒播",
+   "url": "http://qrh.yimkj.cn/ym/lib/ttkx.jar",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🎗┃奈飞┃秒播",
+   "url": "http://qrh.yimkj.cn/ym/lib/nfzw.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🐻┃熊掌┃高清",
+   "url": "https://tvbox.cainisi.cf/jar/fty0101.jar",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "💡┃天天┃影视",
+   "url": "http://op.ysdqjs.cn",
+   "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "site",
+   "name": "😍┃相声┃小品",
+   "url": "http://tt.iitvba.com/js/相声小品.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "👵┃老年┃戏曲",
+   "url": "http://tt.iitvba.com/js/戏曲.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩我┃哥哥",
+   "url": "http://rihou.vip:55/lib/玩我哥哥.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩我┃哥哥",
+   "url": "http://rihou.vip:55/lib/ttkx.jar",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩偶┃哥哥",
+   "url": "http://rihou.vip:55/lib/玩偶哥哥.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "⚽310直播",
+   "url": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/js/310直播.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "⚽310直播",
+   "url": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩偶┃运输",
+   "url": "http://rihou.vip:55/lib/玩偶运输车.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🥰┃短剧┃视频",
+   "url": "https://d.kstore.space/download/6296/json/短剧.json",
+   "reason": "<urlopen error [Errno 111] Connection refused>"
+  },
+  {
+   "type": "site",
+   "name": "📢接口软件永远免费",
+   "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/py_douban.py",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -1446,6 +1572,24 @@
   },
   {
    "type": "site",
+   "name": "🅱┃哔哔┃合集",
+   "url": "http://www.lyyytv.cn/yt/bili/bili.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥰┃短剧┃视频",
+   "url": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar",
+   "reason": "http:404"
+  },
+  {
+   "type": "live",
+   "name": "直播",
+   "url": "http://xhztv.top/njyy.txt",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🐜1080P┃蚂蚁",
    "url": "http://122.228.84.103:5822/api.php/app/",
    "reason": "<urlopen error timed out>"
@@ -1455,132 +1599,6 @@
    "name": "🐰┃加速┃APP",
    "url": "http://122.228.84.103:6117/api.php/app/",
    "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "site",
-   "name": "🐻┃熊掌┃高清",
-   "url": "https://xzcjz.com/api.php/provide/vod",
-   "reason": "<urlopen error [Errno -5] No address associated with hostnam"
-  },
-  {
-   "type": "site",
-   "name": "🐻┃熊掌┃高清",
-   "url": "https://tvbox.cainisi.cf/jar/fty0101.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🎗┃奈飞┃秒播",
-   "url": "http://qrh.yimkj.cn/ym/lib/ttkx.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🎗┃奈飞┃秒播",
-   "url": "http://qrh.yimkj.cn/ym/lib/nfzw.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "💡┃亮亮┃APP",
-   "url": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "site",
-   "name": "👼┃七新┃2K",
-   "url": "http://rihou.vip:88/hccx/七新影视.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃少儿",
-   "url": "http://rihou.vip:88/hccx/py_央视少儿.py",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🧲┃荐片┃磁力",
-   "url": "http://rihou.vip:55/lib/drpy2.min.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "👼┃七新┃2K",
-   "url": "http://rihou.vip:88/hccx/HeChengChaXiu.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃经典",
-   "url": "http://rihou.vip:88/hccx/哔哩经典.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃大全",
-   "url": "http://rihou.vip:88/hccx/央视大全.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "😍┃相声┃小品",
-   "url": "http://tt.iitvba.com/js/相声小品.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "💡┃天天┃影视",
-   "url": "http://op.ysdqjs.cn",
-   "reason": "<urlopen error [Errno -5] No address associated with hostnam"
-  },
-  {
-   "type": "site",
-   "name": "👵┃老年┃戏曲",
-   "url": "http://tt.iitvba.com/js/戏曲.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "⚽310直播",
-   "url": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/js/310直播.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "⚽310直播",
-   "url": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🥰┃短剧┃视频",
-   "url": "https://d.kstore.space/download/6296/json/短剧.json",
-   "reason": "<urlopen error [Errno 111] Connection refused>"
-  },
-  {
-   "type": "site",
-   "name": "🥰┃短剧┃视频",
-   "url": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱┃哔哔┃合集",
-   "url": "http://www.lyyytv.cn/yt/bili/bili.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🧲┃荐片┃磁力",
-   "url": "http://rihou.vip:55/lib/jianpian.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "live",
-   "name": "直播",
-   "url": "http://xhztv.top/njyy.txt",
-   "reason": "http:404"
   },
   {
    "type": "live",
@@ -1595,42 +1613,6 @@
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
-   "type": "live",
-   "name": "自动更新",
-   "url": "https://z.szyyds.cn/iptv",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "site",
-   "name": "测┃玩我┃哥哥",
-   "url": "http://rihou.vip:55/lib/ttkx.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩偶┃哥哥",
-   "url": "http://rihou.vip:55/lib/玩偶哥哥.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩偶┃运输",
-   "url": "http://rihou.vip:55/lib/玩偶运输车.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩我┃哥哥",
-   "url": "http://rihou.vip:55/lib/玩我哥哥.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "parse",
-   "name": "无上",
-   "url": "https://mfjx.iwsyy.xyz/?url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
    "type": "parse",
    "name": "羽路均沾",
    "url": "https://ylu.cc/index.php?url=",
@@ -1643,10 +1625,22 @@
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
+   "type": "site",
+   "name": "💡┃亮亮┃APP",
+   "url": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
+   "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "live",
+   "name": "自动更新",
+   "url": "https://z.szyyds.cn/iptv",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+  },
+  {
    "type": "parse",
-   "name": "A6",
-   "url": "https://pl.a6club.com/player/analysis.php?v=",
-   "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecogn"
+   "name": "无上",
+   "url": "https://mfjx.iwsyy.xyz/?url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "parse",
@@ -1656,15 +1650,9 @@
   },
   {
    "type": "parse",
-   "name": "jx5",
-   "url": "https://huayong.net/jx5/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
-   "name": "vip4",
-   "url": "https://huayong.net/vip4/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "A6",
+   "url": "https://pl.a6club.com/player/analysis.php?v=",
+   "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecogn"
   },
   {
    "type": "parse",
@@ -1680,14 +1668,14 @@
   },
   {
    "type": "parse",
-   "name": "-装歌APP-",
-   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=3&url=",
+   "name": "-公众号-",
+   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=2&url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
    "type": "parse",
-   "name": "-公众号-",
-   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=2&url=",
+   "name": "-装歌APP-",
+   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=3&url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
@@ -1704,27 +1692,27 @@
   },
   {
    "type": "parse",
+   "name": "巧计",
+   "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+   "reason": "http:404"
+  },
+  {
+   "type": "parse",
    "name": "推荐",
    "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url=",
    "reason": "http:404"
   },
   {
    "type": "parse",
-   "name": "巧计",
-   "url": "https://zy.qiaoji8.com/xiafan.php?url=",
-   "reason": "http:404"
+   "name": "jx5",
+   "url": "https://huayong.net/jx5/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
-   "type": "site",
-   "name": "公共·肥猫.one",
-   "url": "https://9877.kstore.space/ONE/one.json",
-   "reason": "http:502"
-  },
-  {
-   "type": "site",
-   "name": "公共·摸鱼·小不点",
-   "url": "http://www.小不点.com",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "parse",
+   "name": "vip4",
+   "url": "https://huayong.net/vip4/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -1734,9 +1722,15 @@
   },
   {
    "type": "site",
-   "name": "公共·王二小.999888123",
-   "url": "http://tv.999888123.xyz/",
-   "reason": "image:image/jpeg"
+   "name": "公共·摸鱼·小不点",
+   "url": "http://www.小不点.com",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "公共·肥猫.one",
+   "url": "https://9877.kstore.space/ONE/one.json",
+   "reason": "http:502"
   },
   {
    "type": "parse",
@@ -1757,10 +1751,22 @@
    "reason": "<urlopen error timed out>"
   },
   {
+   "type": "site",
+   "name": "公共·王二小.999888123",
+   "url": "http://tv.999888123.xyz/",
+   "reason": "image:image/jpeg"
+  },
+  {
    "type": "parse",
    "name": "json五",
    "url": "http://110.42.2.247:880/analysis/json/?uid=2148&my=ehmqrtuCEJNQTVX047&format=json&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "site",
+   "name": "公共·欧歌.id3",
+   "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -1770,9 +1776,9 @@
   },
   {
    "type": "site",
-   "name": "公共·欧歌.id3",
-   "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "公共·王二小.punycode",
+   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+   "reason": "image:image/jpeg"
   },
   {
    "type": "site",
@@ -1800,21 +1806,15 @@
   },
   {
    "type": "site",
-   "name": "公共·苍蓝.kstore",
-   "url": "https://13537.kstore.vip/tvbox/test.json",
-   "reason": "http:401"
-  },
-  {
-   "type": "site",
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net",
-   "reason": "timed out"
-  },
-  {
-   "type": "site",
    "name": "公共·日后",
    "url": "http://rihou.cc:555/nzk/nzk0722.json",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "site",
+   "name": "公共·王二小.top",
+   "url": "http://tvbox.王二小放牛娃.top",
+   "reason": "image:image/jpeg"
   },
   {
    "type": "live",
@@ -1824,21 +1824,15 @@
   },
   {
    "type": "site",
-   "name": "公共·真心",
-   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
-   "reason": "http:403"
-  },
-  {
-   "type": "site",
    "name": "公共·毒盒",
    "url": "https://xn--8owq8u.com/tv/",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
    "type": "site",
-   "name": "公共·传说",
-   "url": "https://chuanshuo.77blog.cn/tv.json",
-   "reason": "<urlopen error [Errno 104] Connection reset by peer>"
+   "name": "公共·真心",
+   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -1848,27 +1842,15 @@
   },
   {
    "type": "site",
-   "name": "公共·蓝天",
-   "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
+   "name": "公共·朱雀",
+   "url": "https://gitee.com/yiwu369/6758/raw/master/%E6%9C%B1%E9%9B%80/api.json",
    "reason": "http:423"
-  },
-  {
-   "type": "site",
-   "name": "公共·喵影",
-   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
-   "reason": "http:404"
   },
   {
    "type": "site",
    "name": "公共·心魔",
    "url": "https://fastgit.cc/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
    "reason": "http:403"
-  },
-  {
-   "type": "parse",
-   "name": "天下嗅探",
-   "url": "https://jx.jsonplayer.com/player/?=&url=",
-   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
   },
   {
    "type": "site",
@@ -1878,9 +1860,9 @@
   },
   {
    "type": "site",
-   "name": "公共·脑斧",
-   "url": "https://6492.kstore.space/xnf/xnf.json",
-   "reason": "http:401"
+   "name": "公共·喵影",
+   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -1890,15 +1872,15 @@
   },
   {
    "type": "site",
-   "name": "公共·少儿频道",
-   "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
-   "reason": "image:image/png"
+   "name": "公共·脑斧",
+   "url": "https://6492.kstore.space/xnf/xnf.json",
+   "reason": "http:401"
   },
   {
    "type": "site",
-   "name": "公共·王二小.999888987",
-   "url": "http://tv.999888987.xyz/",
-   "reason": "timed out"
+   "name": "公共·少儿频道",
+   "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
+   "reason": "image:image/png"
   },
   {
    "type": "site",
@@ -1914,9 +1896,15 @@
   },
   {
    "type": "site",
-   "name": "公共·王二小.top",
-   "url": "http://tvbox.王二小放牛娃.top",
-   "reason": "image:image/jpeg"
+   "name": "公共·麒麟影仓",
+   "url": "https://gitee.com/qlysgzs/qlys/raw/master/qlycZHCK.json",
+   "reason": "http:403"
+  },
+  {
+   "type": "site",
+   "name": "公共·cs",
+   "url": "http://tv.nxog.top/m/",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -1926,8 +1914,8 @@
   },
   {
    "type": "site",
-   "name": "公共·朱雀",
-   "url": "https://gitee.com/yiwu369/6758/raw/master/%E6%9C%B1%E9%9B%80/api.json",
+   "name": "公共·蓝天",
+   "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
    "reason": "http:423"
   },
   {
@@ -1938,21 +1926,15 @@
   },
   {
    "type": "site",
-   "name": "公共·cs",
-   "url": "http://tv.nxog.top/m/",
-   "reason": "http:403"
+   "name": "公共·传说",
+   "url": "https://chuanshuo.77blog.cn/tv.json",
+   "reason": "<urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "type": "site",
-   "name": "公共·王二小.punycode",
-   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+   "name": "公共·王二小.999888987",
+   "url": "http://tv.999888987.xyz/",
    "reason": "image:image/jpeg"
-  },
-  {
-   "type": "site",
-   "name": "公共·麒麟影仓",
-   "url": "https://gitee.com/qlysgzs/qlys/raw/master/qlycZHCK.json",
-   "reason": "http:403"
   },
   {
    "type": "site",
@@ -1965,15 +1947,15 @@
    "name": "公共·小米",
    "url": "http://miqk.cc/%E5%B0%8F%E7%B1%B3/DEMO.json",
    "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
+  },
+  {
+   "type": "parse",
+   "name": "天下嗅探",
+   "url": "https://jx.jsonplayer.com/player/?=&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   }
  ],
  "removed": [
-  {
-   "type": "site",
-   "name": "蓝光影院(XBPQ)·俊哥",
-   "url": "https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
   {
    "type": "site",
    "name": "✨新视觉·小盒子",
@@ -1994,8 +1976,8 @@
   },
   {
    "type": "site",
-   "name": "👒┃小胡┃资源┃·ok线路1",
-   "url": "http://c.小胡.icu/api.php/provide/vod/",
+   "name": "蓝光影院(XBPQ)·俊哥",
+   "url": "https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
@@ -2018,6 +2000,12 @@
   },
   {
    "type": "site",
+   "name": "👒┃小胡┃资源┃·ok线路1",
+   "url": "http://c.小胡.icu/api.php/provide/vod/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "🛰️飞速┃采集·ok线路1",
    "url": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
@@ -2030,14 +2018,14 @@
   },
   {
    "type": "site",
-   "name": "🎹┃MTV┃合集·ok线路1",
-   "url": "https://mv.wogg.link/mv/vod",
-   "reason": "http:401"
+   "name": "💖┃花卷┃4K💖·1号VIP源",
+   "url": "http://118.89.172.248:8025/jar/tan.php",
+   "reason": "http:404"
   },
   {
    "type": "live",
-   "name": "综合直播",
-   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "name": "IPV6",
+   "url": "https://raw.liucn.cc/box/lib/tv/ipv6.m3u",
    "reason": "http:404"
   },
   {
@@ -2048,14 +2036,8 @@
   },
   {
    "type": "live",
-   "name": "肥猫",
-   "url": "http://我不是.肥猫.live/TV/tvzb.txt",
-   "reason": "http:404"
-  },
-  {
-   "type": "live",
-   "name": "IPV6",
-   "url": "https://raw.liucn.cc/box/lib/tv/ipv6.m3u",
+   "name": "综合直播",
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
    "reason": "http:404"
   },
   {
@@ -2075,6 +2057,12 @@
    "name": "港澳台",
    "url": "http://rihou.cc:567/gggg.nzk",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "live",
+   "name": "肥猫",
+   "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+   "reason": "http:404"
   },
   {
    "type": "live",
@@ -2107,10 +2095,10 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "site",
-   "name": "💖┃花卷┃4K💖·1号VIP源",
-   "url": "http://118.89.172.248:8025/jar/tan.php",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "parwix稳定",
+   "url": "https://jx.bozrc.com:4433/player/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -2120,27 +2108,9 @@
   },
   {
    "type": "parse",
-   "name": "777",
-   "url": "https://jx.777jiexi.com/player/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
-   "name": "parwix稳定",
-   "url": "https://jx.bozrc.com:4433/player/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
    "name": "EXO",
    "url": "https://rx.69mj.com/?url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
-  },
-  {
-   "type": "parse",
-   "name": "懒懒2",
-   "url": "http://lanlan.ckflv.cn/?url=",
-   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "parse",
@@ -2150,15 +2120,27 @@
   },
   {
    "type": "parse",
-   "name": "神秘的哥哥们",
-   "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "name": "懒懒2",
+   "url": "http://lanlan.ckflv.cn/?url=",
+   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "parse",
    "name": "肥猫最可爱",
    "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
    "reason": "http:502"
+  },
+  {
+   "type": "parse",
+   "name": "神秘的哥哥们",
+   "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "parse",
+   "name": "公众号：肥猫宝贝",
+   "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+   "reason": "http:404"
   },
   {
    "type": "parse",
@@ -2173,12 +2155,6 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "parse",
-   "name": "全民",
-   "url": "http://api.wpsseo.cn/?v=",
-   "reason": "http:526"
-  },
-  {
    "type": "site",
    "name": "蓝光影院(XBPQ)·俊哥",
    "url": "http://home.jundie.top:81/jar/top98_1.jar",
@@ -2186,15 +2162,15 @@
   },
   {
    "type": "parse",
-   "name": "公众号：肥猫宝贝",
-   "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-   "reason": "http:404"
+   "name": "全民",
+   "url": "http://api.wpsseo.cn/?v=",
+   "reason": "http:526"
   },
   {
-   "type": "parse",
-   "name": "赞赞",
-   "url": "https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "site",
+   "name": "🎹┃MTV┃合集·ok线路1",
+   "url": "https://mv.wogg.link/mv/vod",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "live",
@@ -2213,6 +2189,18 @@
    "name": "二",
    "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "parse",
+   "name": "赞赞",
+   "url": "https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "parse",
+   "name": "777",
+   "url": "https://jx.777jiexi.com/player/?url=",
+   "reason": "<urlopen error _ssl.c:1001: The handshake operation timed ou"
   },
   {
    "type": "parse",
@@ -2239,6 +2227,18 @@
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
+   "type": "site",
+   "name": "影视 | 西门[V2]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox/master/js/西门[V2].js",
+   "reason": "http:404"
+  },
+  {
+   "type": "parse",
+   "name": "jsonplayer",
+   "url": "https://jx.jsonplayer.com/player/?url=",
+   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
+  },
+  {
    "type": "parse",
    "name": "巧技",
    "url": "http://pandown.pro/app/kkdy.php?url=",
@@ -2251,16 +2251,16 @@
    "reason": "<urlopen error timed out>"
   },
   {
-   "type": "site",
-   "name": "影视 | 西门[V2]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox/master/js/西门[V2].js",
-   "reason": "http:404"
-  },
-  {
    "type": "parse",
    "name": "飞云",
    "url": "http://122.228.84.103:7777/api/?key=o9fQb0Jvz0qZzY19Jq&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "parse",
+   "name": "飞云",
+   "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "parse",
@@ -2269,16 +2269,10 @@
    "reason": "<urlopen error timed out>"
   },
   {
-   "type": "parse",
-   "name": "亮亮",
-   "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "parse",
-   "name": "飞云",
-   "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "site",
+   "name": "📀┃光盘┃APP",
+   "url": "http://103.217.190.91:5566",
+   "reason": "http:404"
   },
   {
    "type": "live",
@@ -2293,15 +2287,15 @@
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "type": "site",
-   "name": "📚┃儿童┃启蒙",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/api/drpy2.min.js",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "亮亮",
+   "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "site",
    "name": "📚┃儿童┃启蒙",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/js/兔小贝.js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/api/drpy2.min.js",
    "reason": "http:404"
   },
   {
@@ -2312,15 +2306,15 @@
   },
   {
    "type": "site",
-   "name": "🔥┃设置Token",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/Token.jar",
+   "name": "📚┃儿童┃启蒙",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/js/兔小贝.js",
    "reason": "http:404"
   },
   {
-   "type": "parse",
-   "name": "巧技二",
-   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-   "reason": "<urlopen error timed out>"
+   "type": "site",
+   "name": "🔥┃设置Token",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/Token.jar",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -2330,14 +2324,14 @@
   },
   {
    "type": "site",
-   "name": "📺︎┃电视┃点播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/tv/zb.min.js",
+   "name": "🎰┃蜂蜜┃商店",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/app.jar",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🎰┃蜂蜜┃商店",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/app.jar",
+   "name": "📺︎┃电视┃点播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/tv/zb.min.js",
    "reason": "http:404"
   },
   {
@@ -2378,12 +2372,6 @@
   },
   {
    "type": "site",
-   "name": "🏜┃潮流┃APP",
-   "url": "http://v.rbotv.cn",
-   "reason": "Remote end closed connection without response"
-  },
-  {
-   "type": "site",
    "name": "💢┃耐看┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvlog.json",
    "reason": "http:404"
@@ -2393,6 +2381,12 @@
    "name": "💢┃耐看┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/HCCX.jar",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🏜┃潮流┃APP",
+   "url": "http://v.rbotv.cn",
+   "reason": "Remote end closed connection without response"
   },
   {
    "type": "site",
@@ -2420,12 +2414,6 @@
   },
   {
    "type": "site",
-   "name": "🖍︎┃蜡笔┃云盘",
-   "url": "https://duopan.fun/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
    "name": "💢┃兄弟┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/兄弟.json",
    "reason": "http:404"
@@ -2444,8 +2432,14 @@
   },
   {
    "type": "site",
-   "name": "🎦┃VS┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/VS影院.json",
+   "name": "🖍︎┃蜡笔┃云盘",
+   "url": "https://duopan.fun/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🍁┃久久┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/jojo.json",
    "reason": "http:404"
   },
   {
@@ -2456,20 +2450,32 @@
   },
   {
    "type": "site",
+   "name": "🎦┃VS┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/VS影院.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🍖┃电影牛┃影院",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/电影牛.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🍁┃久久┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/jojo.json",
+   "name": "🎧有声┃小说",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/有声小说吧.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🎧有声┃小说",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/有声小说吧.js",
+   "name": "💣┃磁力p2p┃搜索",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/lf_p2p1_min.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "👀┃快看┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/P4.jar",
    "reason": "http:404"
   },
   {
@@ -2486,45 +2492,15 @@
   },
   {
    "type": "site",
-   "name": "🗽┃六九┃美剧",
-   "url": "https://www.69mj.com/xgapp.php/v2/",
-   "reason": "http:403"
-  },
-  {
-   "type": "site",
-   "name": "💣┃磁力p2p┃搜索",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/lf_p2p1_min.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "💮┃鸭鸭┃App",
-   "url": "https://yayayaaapp.ynf.icu/api.php/app/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🥇┃鑫鑫┃App",
-   "url": "http://yingszj.xn--654a.cc/api.php/app/",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "👀┃快看┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/P4.jar",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📀┃光盘┃APP",
-   "url": "http://103.217.190.91:5566",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🏰┃圣城┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/SC1080.js",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🗽┃六九┃美剧",
+   "url": "https://www.69mj.com/xgapp.php/v2/",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -2534,20 +2510,32 @@
   },
   {
    "type": "site",
+   "name": "🥇┃鑫鑫┃App",
+   "url": "http://yingszj.xn--654a.cc/api.php/app/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "💮┃鸭鸭┃App",
+   "url": "https://yayayaaapp.ynf.icu/api.php/app/",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "🌝┃益达┃App",
    "url": "https://myd666.tv/lvdou_api.php/v1.vod",
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "site",
-   "name": "❤┃爱看┃蓝光",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/爱看.js",
+   "name": "🕵‍┃特工┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/007.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🍩┃奇优┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/奇优.js",
+   "name": "❤┃爱看┃蓝光",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/爱看.js",
    "reason": "http:404"
   },
   {
@@ -2558,14 +2546,14 @@
   },
   {
    "type": "site",
-   "name": "🎃┃南瓜┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/南瓜.js",
+   "name": "🍩┃奇优┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/奇优.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🕵‍┃特工┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/007.js",
+   "name": "🎃┃南瓜┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/南瓜.js",
    "reason": "http:404"
   },
   {
@@ -2575,15 +2563,15 @@
    "reason": "http:404"
   },
   {
-   "type": "site",
-   "name": "🏭️┃厂长┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/czspp.js",
-   "reason": "http:404"
+   "type": "parse",
+   "name": "巧技二",
+   "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "site",
-   "name": "🐵┃师兄┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/大师兄影视.js",
+   "name": "⏳┃荐片┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/荐片.js",
    "reason": "http:404"
   },
   {
@@ -2594,32 +2582,8 @@
   },
   {
    "type": "site",
-   "name": "⏳┃荐片┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/荐片.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "👨‍🌾┃农民┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/nongmin.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐠┃视觉┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/xsj.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🥝┃爱奇异(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/iqiyi.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌟┃三五┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/555.js",
+   "name": "🏭️┃厂长┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/czspp.js",
    "reason": "http:404"
   },
   {
@@ -2630,20 +2594,20 @@
   },
   {
    "type": "site",
-   "name": "🐧┃腾讯(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/qq.js",
+   "name": "🐵┃师兄┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/大师兄影视.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🥭┃芒果(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/mgtv.js",
+   "name": "🐠┃视觉┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/xsj.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🥔┃优酷(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/youku.js",
+   "name": "👨‍🌾┃农民┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/nongmin.js",
    "reason": "http:404"
   },
   {
@@ -2654,8 +2618,32 @@
   },
   {
    "type": "site",
-   "name": "🚛┃搜狗(官)",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/caigou.js",
+   "name": "🌟┃三五┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/555.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥝┃爱奇异(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/iqiyi.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🐧┃腾讯(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/qq.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥔┃优酷(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/youku.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🥭┃芒果(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/mgtv.js",
    "reason": "http:404"
   },
   {
@@ -2672,8 +2660,8 @@
   },
   {
    "type": "site",
-   "name": "🍋┃百忙┃无果",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/百忙无果.js",
+   "name": "🚛┃搜狗(官)",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/caigou.js",
    "reason": "http:404"
   },
   {
@@ -2684,38 +2672,14 @@
   },
   {
    "type": "site",
+   "name": "🍋┃百忙┃无果",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/百忙无果.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🐜1080P┃蚂蚁",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/jar/c.jar",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🔥┃骚火┃电影",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/骚火2.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🔥┃热播┃之家",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/热播之家.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "👌┃赞赞┃切片",
-   "url": "http://111.230.51.151:2323/api.php/app/",
-   "reason": "<urlopen error [Errno 111] Connection refused>"
-  },
-  {
-   "type": "site",
-   "name": "🦊┃黑狐┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/黑狐.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐦┃乌鸦┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/乌鸦.json",
    "reason": "http:404"
   },
   {
@@ -2726,38 +2690,32 @@
   },
   {
    "type": "site",
+   "name": "🐦┃乌鸦┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/乌鸦.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🔥┃热播┃之家",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/热播之家.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🔥┃骚火┃电影",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/骚火2.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🦊┃黑狐┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/黑狐.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🥚┃蛋蛋┃看剧",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/蛋蛋剧.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🛀┃03┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/03yy.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🍄┃蘑菇┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蘑菇.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📻┃评书┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/评书.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌊┃蛋蛋┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蛋蛋影视.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐯┃胖虎┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/胖虎.json",
    "reason": "http:404"
   },
   {
@@ -2768,14 +2726,38 @@
   },
   {
    "type": "site",
-   "name": "🧼┃奇优┃影院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/奇优影院.json",
+   "name": "📻┃评书┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/评书.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🦝┃黑狐┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/黑狐影视.json",
+   "name": "🐯┃胖虎┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/胖虎.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🍄┃蘑菇┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蘑菇.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🛀┃03┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/c/03yy.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🌊┃蛋蛋┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/蛋蛋影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🧼┃奇优┃影院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/奇优影院.json",
    "reason": "http:404"
   },
   {
@@ -2786,8 +2768,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃骚火┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/骚火影视.json",
+   "name": "🦝┃黑狐┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/黑狐影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃TVB┃云播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/TVB云播.json",
    "reason": "http:404"
   },
   {
@@ -2804,20 +2792,20 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃TVB┃云播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/TVB云播.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃爱看┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/爱看影视.json",
+   "name": "🅱️┃骚火┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/骚火影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
    "name": "🅱️┃疯狗┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/疯狗影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃爱看┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/爱看影视.json",
    "reason": "http:404"
   },
   {
@@ -2834,14 +2822,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃超前┃点播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/超前B站.json",
+   "name": "🅱️┃4K┃剧院",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/4k剧院.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃4K┃剧院",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/4k剧院.json",
+   "name": "🅱️┃超前┃点播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/超前B站.json",
    "reason": "http:404"
   },
   {
@@ -2852,14 +2840,20 @@
   },
   {
    "type": "site",
+   "name": "🅱️┃午舞┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/五五影视.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🅱️┃视觉┃影视",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/新视觉影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃午舞┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/五五影视.json",
+   "name": "🅱️┃好戏┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/好戏影视.json",
    "reason": "http:404"
   },
   {
@@ -2876,14 +2870,14 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃348┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/348影视.json",
+   "name": "🅱️┃土豪┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/土豪影视.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃土豪┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/土豪影视.json",
+   "name": "🅱️┃348┃影视",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/348影视.json",
    "reason": "http:404"
   },
   {
@@ -2906,12 +2900,6 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃好戏┃影视",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/好戏影视.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🅱️┃非凡┃资源",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/非凡资源网.json",
    "reason": "http:404"
@@ -2923,21 +2911,9 @@
    "reason": "http:404"
   },
   {
-   "type": "parse",
-   "name": "jsonplayer",
-   "url": "https://jx.jsonplayer.com/player/?url=",
-   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
-  },
-  {
    "type": "site",
    "name": "💢┃南柯┃电影",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkdyw.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🌾┃VOF┃高清",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/voflix.json",
    "reason": "http:404"
   },
   {
@@ -2948,14 +2924,14 @@
   },
   {
    "type": "site",
-   "name": "💢┃耐看┃电影",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvod.json",
+   "name": "🌾┃VOF┃高清",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/voflix.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🧲世界磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/4khdr.js",
+   "name": "💢┃耐看┃电影",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/nkvod.json",
    "reason": "http:404"
   },
   {
@@ -2966,8 +2942,8 @@
   },
   {
    "type": "site",
-   "name": "🐻‍贝尔磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/bear.js",
+   "name": "🧲世界磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/4khdr.js",
    "reason": "http:404"
   },
   {
@@ -2978,14 +2954,14 @@
   },
   {
    "type": "site",
-   "name": "😎酷吧磁力┃Js",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/dr/kuba.js",
+   "name": "🐻‍贝尔磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/bear.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🛳┃港口┃磁力",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/港口.json",
+   "name": "😎酷吧磁力┃Js",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/lib/dr/kuba.js",
    "reason": "http:404"
   },
   {
@@ -3002,26 +2978,8 @@
   },
   {
    "type": "site",
-   "name": "🏀┃企鹅┃体育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/qie.py",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🐧企鹅┃直播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/企鹅直播.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📺央视｜少儿",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/py_央视少儿.py",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📺央视｜经典",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/哔哩经典.json",
+   "name": "🛳┃港口┃磁力",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/港口.json",
    "reason": "http:404"
   },
   {
@@ -3032,14 +2990,56 @@
   },
   {
    "type": "site",
+   "name": "📺央视｜少儿",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/py_央视少儿.py",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🐧企鹅┃直播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/企鹅直播.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🏀┃企鹅┃体育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/qie.py",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "❤️┃央视┃py",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/cctv.py",
    "reason": "http:404"
   },
   {
    "type": "site",
+   "name": "🎤┃酷奇┃音乐",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/酷奇MV.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📺央视｜经典",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/哔哩经典.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "⚽ 88┃看球",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/88看球.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "⚽ Jrs┃球迷",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/jrk.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "⚽310┃看球",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/310直播.js",
    "reason": "http:404"
   },
   {
@@ -3056,32 +3056,8 @@
   },
   {
    "type": "site",
-   "name": "🎤酷奇┃MV",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/酷奇MV.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "⚽310┃看球",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/310直播.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🎤┃酷奇┃音乐",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/酷奇MV.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🎦┃短剧┃BiL",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/Bili短剧.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "⚽ 88┃看球",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/88看球.js",
+   "name": "📽️聚短┃视频",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/短视频.js",
    "reason": "http:404"
   },
   {
@@ -3092,14 +3068,20 @@
   },
   {
    "type": "site",
+   "name": "🎤酷奇┃MV",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/酷奇MV.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🎧有声┃小说",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/有声小说吧.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "📽️聚短┃视频",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/短视频.js",
+   "name": "🎦┃短剧┃BiL",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/xyq/Bili短剧.json",
    "reason": "http:404"
   },
   {
@@ -3128,32 +3110,14 @@
   },
   {
    "type": "site",
-   "name": "📚少儿┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/少儿教育.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📚初中┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/初中课堂.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "📚儿童┃启蒙",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/兔小贝.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "📚小学┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/小学课堂.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "📚高中┃课堂",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/高中课堂.json",
+   "name": "📚少儿┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/少儿教育.json",
    "reason": "http:404"
   },
   {
@@ -3164,8 +3128,14 @@
   },
   {
    "type": "site",
-   "name": "💃┃搭配┃教程",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/搭配.json",
+   "name": "📚高中┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/高中课堂.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📚初中┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/初中课堂.json",
    "reason": "http:404"
   },
   {
@@ -3176,14 +3146,20 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃哔哩┃精简",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/B站精简.js",
+   "name": "💃┃搭配┃教程",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/搭配.json",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🅱️┃美食┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/美食合集.json",
+   "name": "📚小学┃课堂",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/小学课堂.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃哔哩┃精简",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/B站精简.js",
    "reason": "http:404"
   },
   {
@@ -3194,14 +3170,8 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃中医┃药区",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/中医.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃初中┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/初中.json",
+   "name": "🅱️┃美食┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/美食合集.json",
    "reason": "http:404"
   },
   {
@@ -3212,8 +3182,32 @@
   },
   {
    "type": "site",
+   "name": "🅱️┃初中┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/初中.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃高中┃教育",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/高中.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃中医┃药区",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/中医.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
    "name": "🅱️┃戏曲┃合集",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/戏曲.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃体育┃健身",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/体育.json",
    "reason": "http:404"
   },
   {
@@ -3230,56 +3224,8 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃高中┃教育",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/高中.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃音悦┃合集",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/音悦.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
    "name": "🅱️┃歌手┃合集",
    "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌手.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃歌曲┃演唱",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌曲.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃哔哩┃直播",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/哔哩直播.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🅱️┃体育┃健身",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/体育.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "网盘 | Alist[js]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.min.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "网盘 | Alist[js]",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.json",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "WebDAV",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/webdav.json",
    "reason": "http:404"
   },
   {
@@ -3290,8 +3236,26 @@
   },
   {
    "type": "site",
-   "name": "📱┃网红┃美女",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/短视频聚合.json",
+   "name": "🅱️┃女团┃热舞",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/女团.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃音悦┃合集",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/音悦.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃歌曲┃演唱",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/歌曲.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "网盘 | Alist[js]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.json",
    "reason": "http:404"
   },
   {
@@ -3302,9 +3266,33 @@
   },
   {
    "type": "site",
-   "name": "🅱️┃女团┃热舞",
-   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/女团.json",
+   "name": "网盘 | Alist[js]",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/alist.min.js",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🅱️┃哔哩┃直播",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/哔哩直播.js",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "WebDAV",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/js/webdav.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "📱┃网红┃美女",
+   "url": "https://raw.githubusercontent.com/hubeizgd1979/tvbox-ysc-config/main/output/libs/hccx/短视频聚合.json",
+   "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "👌┃赞赞┃切片",
+   "url": "http://111.230.51.151:2323/api.php/app/",
+   "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "site",
@@ -3314,14 +3302,20 @@
   },
   {
    "type": "site",
+   "name": "📢公告停更",
+   "url": "https://xn--dkw0c.v.nxog.top/m/公告?b=欧歌",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+  },
+  {
+   "type": "site",
    "name": "🔥┃小胡┃4K",
    "url": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
-   "name": "📢公告停更",
-   "url": "https://xn--dkw0c.v.nxog.top/m/公告?b=欧歌",
+   "name": "🛒本地包更新",
+   "url": "https://xn--dkw0c.v.nxog.top/zm/sd?b=欧歌",
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
@@ -3338,9 +3332,33 @@
   },
   {
    "type": "site",
-   "name": "📺┃网红┃直播",
-   "url": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
-   "reason": "http:404"
+   "name": "👼┃七新┃2K",
+   "url": "http://rihou.vip:88/hccx/七新影视.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "👼┃七新┃2K",
+   "url": "http://rihou.vip:88/hccx/HeChengChaXiu.jar",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃大全",
+   "url": "http://rihou.vip:88/hccx/央视大全.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃少儿",
+   "url": "http://rihou.vip:88/hccx/py_央视少儿.py",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "📺┃央视┃经典",
+   "url": "http://rihou.vip:88/hccx/哔哩经典.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
@@ -3350,26 +3368,26 @@
   },
   {
    "type": "site",
-   "name": "📢接口软件永远免费",
-   "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/py_douban.py",
+   "name": "📺┃网红┃直播",
+   "url": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
    "reason": "http:404"
   },
   {
    "type": "site",
-   "name": "🛒本地包更新",
-   "url": "https://xn--dkw0c.v.nxog.top/zm/sd?b=欧歌",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "🧲┃荐片┃磁力",
+   "url": "http://rihou.vip:55/lib/drpy2.min.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "🧲┃荐片┃磁力",
+   "url": "http://rihou.vip:55/lib/jianpian.js",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "site",
    "name": "🧡┃360┃官源",
    "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/lib/drpy2.min.js",
-   "reason": "http:404"
-  },
-  {
-   "type": "site",
-   "name": "🧡┃360┃官源",
-   "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js/360%E5%BD%B1%E8%A7%86.js",
    "reason": "http:404"
   },
   {
@@ -3380,27 +3398,15 @@
   },
   {
    "type": "site",
-   "name": "🐜1080P┃蚂蚁",
-   "url": "http://122.228.84.103:5822/api.php/app/",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "site",
-   "name": "🐰┃加速┃APP",
-   "url": "http://122.228.84.103:6117/api.php/app/",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "site",
    "name": "🐻┃熊掌┃高清",
    "url": "https://xzcjz.com/api.php/provide/vod",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
    "type": "site",
-   "name": "🐻┃熊掌┃高清",
-   "url": "https://tvbox.cainisi.cf/jar/fty0101.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "name": "🧡┃360┃官源",
+   "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js/360%E5%BD%B1%E8%A7%86.js",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -3416,50 +3422,8 @@
   },
   {
    "type": "site",
-   "name": "💡┃亮亮┃APP",
-   "url": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
-   "reason": "<urlopen error timed out>"
-  },
-  {
-   "type": "site",
-   "name": "👼┃七新┃2K",
-   "url": "http://rihou.vip:88/hccx/七新影视.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃少儿",
-   "url": "http://rihou.vip:88/hccx/py_央视少儿.py",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "🧲┃荐片┃磁力",
-   "url": "http://rihou.vip:55/lib/drpy2.min.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "👼┃七新┃2K",
-   "url": "http://rihou.vip:88/hccx/HeChengChaXiu.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃经典",
-   "url": "http://rihou.vip:88/hccx/哔哩经典.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "📺┃央视┃大全",
-   "url": "http://rihou.vip:88/hccx/央视大全.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "😍┃相声┃小品",
-   "url": "http://tt.iitvba.com/js/相声小品.json",
+   "name": "🐻┃熊掌┃高清",
+   "url": "https://tvbox.cainisi.cf/jar/fty0101.jar",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
@@ -3470,8 +3434,32 @@
   },
   {
    "type": "site",
+   "name": "😍┃相声┃小品",
+   "url": "http://tt.iitvba.com/js/相声小品.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "👵┃老年┃戏曲",
    "url": "http://tt.iitvba.com/js/戏曲.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩我┃哥哥",
+   "url": "http://rihou.vip:55/lib/玩我哥哥.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩我┃哥哥",
+   "url": "http://rihou.vip:55/lib/ttkx.jar",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "测┃玩偶┃哥哥",
+   "url": "http://rihou.vip:55/lib/玩偶哥哥.json",
    "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
@@ -3488,15 +3476,27 @@
   },
   {
    "type": "site",
+   "name": "测┃玩偶┃运输",
+   "url": "http://rihou.vip:55/lib/玩偶运输车.json",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
    "name": "🥰┃短剧┃视频",
    "url": "https://d.kstore.space/download/6296/json/短剧.json",
    "reason": "<urlopen error [Errno 111] Connection refused>"
   },
   {
    "type": "site",
-   "name": "🥰┃短剧┃视频",
-   "url": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar",
+   "name": "📢接口软件永远免费",
+   "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/py_douban.py",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🧡┃初恋┃官源",
+   "url": "https://video.adminqt.cn/api.php/provide/vod/",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "site",
@@ -3506,15 +3506,27 @@
   },
   {
    "type": "site",
-   "name": "🧲┃荐片┃磁力",
-   "url": "http://rihou.vip:55/lib/jianpian.js",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "name": "🥰┃短剧┃视频",
+   "url": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar",
+   "reason": "http:404"
   },
   {
    "type": "live",
    "name": "直播",
    "url": "http://xhztv.top/njyy.txt",
    "reason": "http:404"
+  },
+  {
+   "type": "site",
+   "name": "🐜1080P┃蚂蚁",
+   "url": "http://122.228.84.103:5822/api.php/app/",
+   "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "site",
+   "name": "🐰┃加速┃APP",
+   "url": "http://122.228.84.103:6117/api.php/app/",
+   "reason": "<urlopen error timed out>"
   },
   {
    "type": "live",
@@ -3529,42 +3541,6 @@
    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
-   "type": "live",
-   "name": "自动更新",
-   "url": "https://z.szyyds.cn/iptv",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "site",
-   "name": "测┃玩我┃哥哥",
-   "url": "http://rihou.vip:55/lib/ttkx.jar",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩偶┃哥哥",
-   "url": "http://rihou.vip:55/lib/玩偶哥哥.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩偶┃运输",
-   "url": "http://rihou.vip:55/lib/玩偶运输车.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "site",
-   "name": "测┃玩我┃哥哥",
-   "url": "http://rihou.vip:55/lib/玩我哥哥.json",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "type": "parse",
-   "name": "无上",
-   "url": "https://mfjx.iwsyy.xyz/?url=",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
    "type": "parse",
    "name": "羽路均沾",
    "url": "https://ylu.cc/index.php?url=",
@@ -3577,10 +3553,22 @@
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
+   "type": "site",
+   "name": "💡┃亮亮┃APP",
+   "url": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
+   "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "live",
+   "name": "自动更新",
+   "url": "https://z.szyyds.cn/iptv",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+  },
+  {
    "type": "parse",
-   "name": "A6",
-   "url": "https://pl.a6club.com/player/analysis.php?v=",
-   "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecogn"
+   "name": "无上",
+   "url": "https://mfjx.iwsyy.xyz/?url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "type": "parse",
@@ -3590,15 +3578,9 @@
   },
   {
    "type": "parse",
-   "name": "jx5",
-   "url": "https://huayong.net/jx5/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-  },
-  {
-   "type": "parse",
-   "name": "vip4",
-   "url": "https://huayong.net/vip4/?url=",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "A6",
+   "url": "https://pl.a6club.com/player/analysis.php?v=",
+   "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecogn"
   },
   {
    "type": "parse",
@@ -3614,14 +3596,14 @@
   },
   {
    "type": "parse",
-   "name": "-装歌APP-",
-   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=3&url=",
+   "name": "-公众号-",
+   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=2&url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
    "type": "parse",
-   "name": "-公众号-",
-   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=2&url=",
+   "name": "-装歌APP-",
+   "url": "https://by1.nxog.eu.org/jx.php?ou=33c&mz=3&url=",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
@@ -3638,27 +3620,27 @@
   },
   {
    "type": "parse",
+   "name": "巧计",
+   "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+   "reason": "http:404"
+  },
+  {
+   "type": "parse",
    "name": "推荐",
    "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url=",
    "reason": "http:404"
   },
   {
    "type": "parse",
-   "name": "巧计",
-   "url": "https://zy.qiaoji8.com/xiafan.php?url=",
-   "reason": "http:404"
+   "name": "jx5",
+   "url": "https://huayong.net/jx5/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
-   "type": "site",
-   "name": "公共·肥猫.one",
-   "url": "https://9877.kstore.space/ONE/one.json",
-   "reason": "http:502"
-  },
-  {
-   "type": "site",
-   "name": "公共·摸鱼·小不点",
-   "url": "http://www.小不点.com",
-   "reason": "<urlopen error [Errno -2] Name or service not known>"
+   "type": "parse",
+   "name": "vip4",
+   "url": "https://huayong.net/vip4/?url=",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -3668,9 +3650,15 @@
   },
   {
    "type": "site",
-   "name": "公共·王二小.999888123",
-   "url": "http://tv.999888123.xyz/",
-   "reason": "image:image/jpeg"
+   "name": "公共·摸鱼·小不点",
+   "url": "http://www.小不点.com",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "type": "site",
+   "name": "公共·肥猫.one",
+   "url": "https://9877.kstore.space/ONE/one.json",
+   "reason": "http:502"
   },
   {
    "type": "parse",
@@ -3691,10 +3679,22 @@
    "reason": "<urlopen error timed out>"
   },
   {
+   "type": "site",
+   "name": "公共·王二小.999888123",
+   "url": "http://tv.999888123.xyz/",
+   "reason": "image:image/jpeg"
+  },
+  {
    "type": "parse",
    "name": "json五",
    "url": "http://110.42.2.247:880/analysis/json/?uid=2148&my=ehmqrtuCEJNQTVX047&format=json&url=",
    "reason": "<urlopen error timed out>"
+  },
+  {
+   "type": "site",
+   "name": "公共·欧歌.id3",
+   "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3",
+   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "type": "parse",
@@ -3704,9 +3704,9 @@
   },
   {
    "type": "site",
-   "name": "公共·欧歌.id3",
-   "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3",
-   "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   "name": "公共·王二小.punycode",
+   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+   "reason": "image:image/jpeg"
   },
   {
    "type": "site",
@@ -3734,21 +3734,15 @@
   },
   {
    "type": "site",
-   "name": "公共·苍蓝.kstore",
-   "url": "https://13537.kstore.vip/tvbox/test.json",
-   "reason": "http:401"
-  },
-  {
-   "type": "site",
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net",
-   "reason": "timed out"
-  },
-  {
-   "type": "site",
    "name": "公共·日后",
    "url": "http://rihou.cc:555/nzk/nzk0722.json",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
+  },
+  {
+   "type": "site",
+   "name": "公共·王二小.top",
+   "url": "http://tvbox.王二小放牛娃.top",
+   "reason": "image:image/jpeg"
   },
   {
    "type": "live",
@@ -3758,21 +3752,15 @@
   },
   {
    "type": "site",
-   "name": "公共·真心",
-   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
-   "reason": "http:403"
-  },
-  {
-   "type": "site",
    "name": "公共·毒盒",
    "url": "https://xn--8owq8u.com/tv/",
    "reason": "<urlopen error [Errno -5] No address associated with hostnam"
   },
   {
    "type": "site",
-   "name": "公共·传说",
-   "url": "https://chuanshuo.77blog.cn/tv.json",
-   "reason": "<urlopen error [Errno 104] Connection reset by peer>"
+   "name": "公共·真心",
+   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -3782,27 +3770,15 @@
   },
   {
    "type": "site",
-   "name": "公共·蓝天",
-   "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
+   "name": "公共·朱雀",
+   "url": "https://gitee.com/yiwu369/6758/raw/master/%E6%9C%B1%E9%9B%80/api.json",
    "reason": "http:423"
-  },
-  {
-   "type": "site",
-   "name": "公共·喵影",
-   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
-   "reason": "http:404"
   },
   {
    "type": "site",
    "name": "公共·心魔",
    "url": "https://fastgit.cc/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
    "reason": "http:403"
-  },
-  {
-   "type": "parse",
-   "name": "天下嗅探",
-   "url": "https://jx.jsonplayer.com/player/?=&url=",
-   "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
   },
   {
    "type": "site",
@@ -3812,9 +3788,9 @@
   },
   {
    "type": "site",
-   "name": "公共·脑斧",
-   "url": "https://6492.kstore.space/xnf/xnf.json",
-   "reason": "http:401"
+   "name": "公共·喵影",
+   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+   "reason": "http:404"
   },
   {
    "type": "site",
@@ -3824,15 +3800,15 @@
   },
   {
    "type": "site",
-   "name": "公共·少儿频道",
-   "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
-   "reason": "image:image/png"
+   "name": "公共·脑斧",
+   "url": "https://6492.kstore.space/xnf/xnf.json",
+   "reason": "http:401"
   },
   {
    "type": "site",
-   "name": "公共·王二小.999888987",
-   "url": "http://tv.999888987.xyz/",
-   "reason": "timed out"
+   "name": "公共·少儿频道",
+   "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
+   "reason": "image:image/png"
   },
   {
    "type": "site",
@@ -3848,9 +3824,15 @@
   },
   {
    "type": "site",
-   "name": "公共·王二小.top",
-   "url": "http://tvbox.王二小放牛娃.top",
-   "reason": "image:image/jpeg"
+   "name": "公共·麒麟影仓",
+   "url": "https://gitee.com/qlysgzs/qlys/raw/master/qlycZHCK.json",
+   "reason": "http:403"
+  },
+  {
+   "type": "site",
+   "name": "公共·cs",
+   "url": "http://tv.nxog.top/m/",
+   "reason": "http:403"
   },
   {
    "type": "site",
@@ -3860,8 +3842,8 @@
   },
   {
    "type": "site",
-   "name": "公共·朱雀",
-   "url": "https://gitee.com/yiwu369/6758/raw/master/%E6%9C%B1%E9%9B%80/api.json",
+   "name": "公共·蓝天",
+   "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
    "reason": "http:423"
   },
   {
@@ -3872,21 +3854,15 @@
   },
   {
    "type": "site",
-   "name": "公共·cs",
-   "url": "http://tv.nxog.top/m/",
-   "reason": "http:403"
+   "name": "公共·传说",
+   "url": "https://chuanshuo.77blog.cn/tv.json",
+   "reason": "<urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "type": "site",
-   "name": "公共·王二小.punycode",
-   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+   "name": "公共·王二小.999888987",
+   "url": "http://tv.999888987.xyz/",
    "reason": "image:image/jpeg"
-  },
-  {
-   "type": "site",
-   "name": "公共·麒麟影仓",
-   "url": "https://gitee.com/qlysgzs/qlys/raw/master/qlycZHCK.json",
-   "reason": "http:403"
   },
   {
    "type": "site",
@@ -3899,6 +3875,12 @@
    "name": "公共·小米",
    "url": "http://miqk.cc/%E5%B0%8F%E7%B1%B3/DEMO.json",
    "reason": "<urlopen error [Errno -3] Temporary failure in name resoluti"
+  },
+  {
+   "type": "parse",
+   "name": "天下嗅探",
+   "url": "https://jx.jsonplayer.com/player/?=&url=",
+   "reason": "<urlopen error [Errno -2] Name or service not known>"
   }
  ]
 }
