@@ -7657,10 +7657,6 @@
    "url": "http://肥猫.net/"
   },
   {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
-  },
-  {
    "name": "公共·肥猫.net/tv",
    "url": "http://肥猫.net/tv"
   },
@@ -7988,6 +7984,35 @@
    "url": "https://jx.m3u8.pw/?url="
   },
   {
+   "name": "腾云",
+   "type": 1,
+   "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+   "ext": {
+    "flag": [
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "芒果"
+    ],
+    "header": {
+     "User-Agent": "okhttp/3.12.0"
+    }
+   }
+  },
+  {
    "name": "咸鱼",
    "type": 0,
    "url": "https://jx.xyflv.cc/?url=",
@@ -8185,9 +8210,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-22 22:55:58",
+     "name": "2026-11-23 04:35:18",
      "urls": [
-      "http://173.208.234.146/live/cctv8.m3u8"
+      "http://173.208.212.130:8181/1080p/cctv15.m3u8"
      ]
     }
    ]
