@@ -1465,15 +1465,6 @@
    "filterable": 1
   },
   {
-   "key": "tv_back-023_MV_vod",
-   "name": "🎹┃MTV┃合集·ok线路1",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "tv_back-023_taopian",
    "name": "🕹️淘片┃采集·ok线路1",
    "type": 1,
@@ -5830,18 +5821,6 @@
    "filterable": 0
   },
   {
-   "key": "MV_vod",
-   "name": "🎶明星┃MV",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "style": {
-    "type": "oval"
-   },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0
-  },
-  {
    "key": "csp_Yj1211",
    "name": "📽️网红┃直播",
    "type": 3,
@@ -5849,15 +5828,6 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1
-  },
-  {
-   "key": "laoliubei_MV_vod",
-   "name": "🎹┃MTV┃合集",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
   },
   {
    "key": "本地",
@@ -6770,6 +6740,14 @@
    "filterable": 1
   },
   {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7627,10 +7605,6 @@
    "url": "http://肥猫.net/"
   },
   {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
-  },
-  {
    "name": "公共·肥猫.net/tv",
    "url": "http://肥猫.net/tv"
   },
@@ -8079,11 +8053,6 @@
    "hosts": [
     "your-domain.com"
    ]
-  },
-  {
-   "name": "jx",
-   "type": 0,
-   "url": "https://jx.m3u8.tv/jx/jx.php?url="
   },
   {
    "name": "无尽",
