@@ -6496,16 +6496,6 @@
    }
   },
   {
-   "key": "还行",
-   "name": "还行",
-   "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
-   "type": 3,
-   "api": "csp_AppYs",
-   "searchable": 1,
-   "quickSearch": 1,
-   "ext": "http://m51.gotto.top/api.php/v1.vod"
-  },
-  {
    "key": "超全",
    "name": "⚽吃瓜┃看球",
    "type": 3,
@@ -7605,6 +7595,10 @@
    "url": "http://肥猫.net/"
   },
   {
+   "name": "公共·肥猫.hello",
+   "url": "http://hello.肥猫.net"
+  },
+  {
    "name": "公共·肥猫.net/tv",
    "url": "http://肥猫.net/tv"
   },
@@ -8157,9 +8151,9 @@
    "group": "🕘️更新时间",
    "channels": [
     {
-     "name": "2026-11-24 03:34:55",
+     "name": "2026-11-24 16:40:11",
      "urls": [
-      "http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009"
+      "https://0472.org/hls/cgtnd.m3u8"
      ]
     }
    ]
