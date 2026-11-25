@@ -6723,6 +6723,14 @@
    "filterable": 1
   },
   {
+   "key": "初恋资源",
+   "name": "🧡┃初恋┃官源",
+   "type": 1,
+   "api": "https://video.adminqt.cn/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7905,6 +7913,11 @@
    }
   },
   {
+   "name": "m3u8",
+   "type": 0,
+   "url": "https://jx.m3u8.tv/jiexi/?url="
+  },
+  {
    "name": "看看",
    "type": 0,
    "url": "https://jx.m3u8.pw/?url="
@@ -8078,6 +8091,12 @@
    "ua": "okhttp/3.15",
    "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
    "logo": "https://epg.112114.xyz/logo/{name}.png"
+  },
+  {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "playerType": 2
   },
   {
    "name": "虎牙一起看",
