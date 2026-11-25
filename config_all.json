@@ -6465,14 +6465,6 @@
    "quickSearch": 1
   },
   {
-   "key": "光速资源",
-   "name": "光速资源(切)",
-   "type": 1,
-   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "新浪资源",
    "name": "新浪资源(切)",
    "type": 1,
@@ -6897,26 +6889,6 @@
    "name": "🎥┃红牛┃资源",
    "type": 1,
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-   "searchable": 1,
-   "filterable": 0,
-   "categories": [
-    "欧美剧",
-    "韩剧",
-    "日剧",
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片"
-   ]
-  },
-  {
-   "key": "gszy",
-   "name": "🎥┃光速┃资源",
-   "type": 1,
-   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "searchable": 1,
    "filterable": 0,
    "categories": [
