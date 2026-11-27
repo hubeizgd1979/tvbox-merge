@@ -1413,15 +1413,6 @@
    ]
   },
   {
-   "key": "tv_back-023_MV_vod",
-   "name": "🎹┃MTV┃合集·ok线路1",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "tv_back-012_feifan",
    "name": "🍀┃非凡┃资源·二月红接口",
    "type": 1,
@@ -4856,7 +4847,7 @@
   },
   {
    "key": "Doubanaaaa",
-   "name": "🐮【更新日期:20261126】🐮",
+   "name": "🐮【更新日期:20261127】🐮",
    "type": 3,
    "api": "csp_NewDouBanGuard",
    "indexs": 1,
@@ -5791,18 +5782,6 @@
    "filterable": 0
   },
   {
-   "key": "MV_vod",
-   "name": "🎶明星┃MV",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "style": {
-    "type": "oval"
-   },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0
-  },
-  {
    "key": "csp_Yj1211",
    "name": "📽️网红┃直播",
    "type": 3,
@@ -5810,15 +5789,6 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1
-  },
-  {
-   "key": "laoliubei_MV_vod",
-   "name": "🎹┃MTV┃合集",
-   "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
   },
   {
    "key": "本地",
@@ -6670,14 +6640,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7513,10 +7475,6 @@
   {
    "name": "公共·肥猫.net",
    "url": "http://肥猫.net/"
-  },
-  {
-   "name": "公共·肥猫.hello",
-   "url": "http://hello.肥猫.net"
   },
   {
    "name": "公共·肥猫.net/tv",
