@@ -6594,14 +6594,6 @@
    "filterable": 1
   },
   {
-   "key": "初恋资源",
-   "name": "🧡┃初恋┃官源",
-   "type": 1,
-   "api": "https://video.adminqt.cn/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
    "key": "小柚",
    "name": "🍊┃小柚┃App",
    "type": 3,
@@ -7995,7 +7987,7 @@
    "group": "更新时间",
    "channels": [
     {
-     "name": "2026-11-27 22:12 更新 · 289 个频道",
+     "name": "2026-11-28 08:09 更新 · 228 个频道",
      "urls": [
       "http://127.0.0.1/"
      ]
